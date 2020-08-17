@@ -1,0 +1,37 @@
+header {
+    background: url(../images/background.png) repeat;
+}
+
+.nav_item {
+    padding: 0 1rem;
+}
+
+@media screen and (max-width: 769px) {
+    a.nav_item {
+        padding: 0.5rem 1rem;
+    }
+
+    .nav_brand.nav_item {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    header nav {
+        background: url(../images/highlight.png) repeat;
+        padding-left: 1em;
+        color: black !important;
+    }
+
+    header nav svg {
+        fill: black !important;
+    }
+
+    #mode {
+        background-color: white;
+    }
+}
+
+#open-menu {
+    fill: black !important;
+}

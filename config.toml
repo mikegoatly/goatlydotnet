@@ -5,7 +5,6 @@ copyright = "Copyright © Mike Goatly; all rights reserved."
 # canonifyurls = true
 paginate = 10
 theme = "hugo-clarity"
-disablePathToLower = true
 
 [markup]
   [markup.highlight]
@@ -23,6 +22,7 @@ disablePathToLower = true
 author = "Mike Goatly"
 twitter = "@mikegoatly"
 introDescription = "Like a code monkey, but more goat-like. A code goat, if you like."
+customCSS = ["css/custom.css"]
 
 # Google analytics Id
 ga_analytics = "XXXXXXXXXX"
