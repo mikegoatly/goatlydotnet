@@ -1,9 +1,269 @@
 {
     "routes":[
         {
-            "route": "/oldbloglink.aspx",
+            "route": "/2006/7/20/Easy-way-to-enter-GUIDs-for-WiX-scripts.aspx",
+            "serve": "/post/easy-way-to-enter-guids-for-wix-scripts",
+            "statusCode": 301
+        },
+        {
+            "route": "/2006/7/13/Configuring-ADAM-to-use-SSL.aspx",
+            "serve": "/post/configuring-adam-to-use-ssl",
+            "statusCode": 301
+        },
+        {
+            "route": "/2007/8/6/Determining-Framework-SDK-Path.aspx",
+            "serve": "/post/determining-framework-sdk-path",
+            "statusCode": 301
+        },
+        {
+            "route": "/2008/12/8/Creating-MSBuild-XSD-schemas-for-your-custom-tasks.aspx",
+            "serve": "/post/creating-msbuild-xsd-schemas-for-your-custom-tasks",
+            "statusCode": 301
+        },
+        {
+            "route": "/2008/1/23/Collapsing-Visual-Studio-Solution-Explorer-to-Project-Definitions.aspx",
+            "serve": "/post/collapsing-visual-studio-solution-explorer-to-project-definitions",
+            "statusCode": 301
+        },
+        {
+            "route": "/2008/1/11/Good-Uses-for-SQL-Server-2005-Common-Table-Expressions-(Part-1).aspx",
+            "serve": "/post/good-uses-for-sql-server-2005-common-table-expressions-part-1",
+            "statusCode": 301
+        },
+        {
+            "route": "/2008/1/10/Good-Uses-for-SQL-Server-2005-Common-Table-Expressions-(Part-0).aspx",
+            "serve": "/post/good-uses-for-sql-server-2005-common-table-expressions-part-0",
+            "statusCode": 301
+        },
+        {
+            "route": "/2009/12/8/Using-a-recursive-CTE-to-read-the-root-parent-id-of-a-hierarchical-table.aspx",
+            "serve": "/post/using-a-recursive-cte-to-read-the-root-parent-id-of-a-hierarchical-table",
+            "statusCode": 301
+        },
+        {
+            "route": "/2009/3/9/How-to-determine-the-version-of-IIS.aspx",
+            "serve": "/post/how-to-determine-the-version-of-iis",
+            "statusCode": 301
+        },
+        {
+            "route": "/2010/12/24/Advanced-querying-with-LIFTI.aspx",
+            "serve": "/post/advanced-querying-with-lifti",
+            "statusCode": 301
+        },
+        {
+            "route": "/2010/12/23/401-Unauthorized-when-Acquiring-an-Access-Token-Windows-Live-SDK.aspx",
+            "serve": "/post/401-unauthorized-when-acquiring-an-access-token-windows-live-sdk",
+            "statusCode": 301
+        },
+        {
+            "route": "/2010/12/7/LIFTI-and-Porter-stemming.aspx",
+            "serve": "/post/lifti-and-porter-stemming",
+            "statusCode": 301
+        },
+        {
+            "route": "/2010/11/19/Using-T4-to-generate-content-at-runtime.aspx",
+            "serve": "/post/using-t4-to-generate-content-at-runtime",
+            "statusCode": 301
+        },
+        {
+            "route": "/2010/11/18/LIFTI-Searching-Pascal-cased-words.aspx",
+            "serve": "/post/lifti-searching-pascal-cased-words",
+            "statusCode": 301
+        },
+        {
+            "route": "/2010/6/30/Errors-using-a-custom-RIA-authentication-service-(and-how-to-resolve-them).aspx",
+            "serve": "/post/errors-using-a-custom-ria-authentication-service-and-how-to-resolve-them",
+            "statusCode": 301
+        },
+        {
+            "route": "/2010/1/29/Creating-a-lightweight-in-memory-full-text-indexer.aspx",
+            "serve": "/post/creating-a-lightweight-in-memory-full-text-indexer",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/7/1/Tutorial-Using-LIFTI-in-an-MVC-3-web-application.aspx",
+            "serve": "/post/tutorial-using-lifti-in-an-mvc-3-web-application",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/6/27/Entity-Framework-Code-First-The-path-is-not-valid-Check-the-directory-for-the-database.aspx",
+            "serve": "/post/entity-framework-code-first-the-path-is-not-valid-check-the-directory-for-the-database",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/6/10/LIFTI-XmlWordSplitter.aspx",
+            "serve": "/post/lifti-xmlwordsplitter",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/6/8/Changes-to-the-LIFTI-API.aspx",
+            "serve": "/post/changes-to-the-lifti-api",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/4/25/Debugging-The-agent-process-was-stopped-while-the-test-was-running.aspx",
+            "serve": "/post/debugging-the-agent-process-was-stopped-while-the-test-was-running",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/4/12/Using-Windows-Live-Mesh-to-synchronize-your-draft-blog-posts.aspx",
+            "serve": "/post/using-windows-live-mesh-to-synchronize-your-draft-blog-posts",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/4/8/Describing-the-LIFTI-persistence-file-format.aspx",
+            "serve": "/post/describing-the-lifti-persistence-file-format",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/4/4/Persisting-GetHashCode-values-is-a-staggeringly-bad-thing-to-do,-and-you-should-know-better.aspx",
+            "serve": "/post/persisting-gethashcode-values-is-a-staggeringly-bad-thing-to-do-and-you-should-know-better",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/3/29/Implementing-a-persisted-file-store-for-LIFTI.aspx",
+            "serve": "/post/implementing-a-persisted-file-store-for-lifti",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/3/21/Problems-programatically-creating-AppPool.aspx",
+            "serve": "/post/problems-programatically-creating-apppool",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/3/18/NotSupportedException-when-calling-EndGetResponse-in-Silverlight.aspx",
+            "serve": "/post/notsupportedexception-when-calling-endgetresponse-in-silverlight",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/2/2/Debugging-bad-request-errors-Windows-Live-SDK.aspx",
+            "serve": "/post/debugging-bad-request-errors-windows-live-sdk",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/1/31/Building-a-debugger-visualizer-for-generic-types.aspx",
+            "serve": "/post/building-a-debugger-visualizer-for-generic-types",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/1/25/Performance-tuning-using-Visual-Studio-2010.aspx",
+            "serve": "/post/performance-tuning-using-visual-studio-2010",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/1/16/Writing-multi-threaded-unit-tests.aspx",
+            "serve": "/post/writing-multi-threaded-unit-tests",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/1/11/Implementing-thread-safety-in-LIFTI.aspx",
+            "serve": "/post/implementing-thread-safety-in-lifti",
+            "statusCode": 301
+        },
+        {
+            "route": "/2011/1/5/LIFTI-Changes-ahoy.aspx",
+            "serve": "/post/lifti-changes-ahoy",
+            "statusCode": 301
+        },
+        {
+            "route": "/using-azure-mobile-services-from-windows-phone-7-apps",
+            "serve": "/post/using-azure-mobile-services-from-windows-phone-7-apps",
+            "statusCode": 301
+        },
+        {
+            "route": "/using-winrttriggers-within-data-templates",
+            "serve": "/post/using-winrttriggers-within-data-templates",
+            "statusCode": 301
+        },
+        {
+            "route": "/using-livedatascript",
+            "serve": "/post/using-livedatascript",
+            "statusCode": 301
+        },
+        {
+            "route": "/conditional-trigger-actions-with-winrttriggers",
+            "serve": "/post/conditional-trigger-actions-with-winrttriggers",
+            "statusCode": 301
+        },
+        {
+            "route": "/triggers-in-winrt-xaml",
+            "serve": "/post/triggers-in-winrt-xaml",
+            "statusCode": 301
+        },
+        {
+            "route": "/equazor",
+            "serve": "/post/equazor",
+            "statusCode": 301
+        },
+        {
+            "route": "/new-host-new-look",
+            "serve": "/post/new-host-new-look",
+            "statusCode": 301
+        },
+        {
+            "route": "/2012/5/29/Export-all-tables-in-an-Access-database-to-CSV.aspx",
+            "serve": "/post/export-all-tables-in-an-access-database-to-csv",
+            "statusCode": 301
+        },
+        {
+            "route": "/2012/5/22/Why-have-my-visual-state-changes-stopped-working.aspx",
+            "serve": "/post/why-have-my-visual-state-changes-stopped-working",
+            "statusCode": 301
+        },
+        {
+            "route": "/2012/1/25/Hooking-into-session-start-events-in-an-HTTP-module.aspx",
+            "serve": "/post/hooking-into-session-start-events-in-an-http-module",
+            "statusCode": 301
+        },
+        {
+            "route": "/2012/1/20/Article-on-using-SqlBulkCopy-with-POCOs.aspx",
+            "serve": "/post/article-on-using-sqlbulkcopy-with-pocos",
+            "statusCode": 301
+        },
+        {
+            "route": "/2012/1/15/DynaCache-just-like-page-output-caching,-but-for-classes.aspx",
+            "serve": "/post/dynacache-just-like-page-output-caching,-but-for-classes",
+            "statusCode": 301
+        },
+        {
+            "route": "/customizing-table-names-for-identitydbcontextwithcustomuser-data-contexts",
+            "serve": "/post/customizing-table-names-for-identitydbcontextwithcustomuser-data-contexts",
+            "statusCode": 301
+        },
+        {
+            "route": "/persistedfulltextindexes-with-non-primitive-types",
+            "serve": "/post/persistedfulltextindexes-with-non-primitive-types",
+            "statusCode": 301
+        },
+        {
+            "route": "/using-dynacache-with-unity",
+            "serve": "/post/using-dynacache-with-unity",
+            "statusCode": 301
+        },
+        {
+            "route": "/storyboardcompletedtrigger-and-setpropertyaction",
+            "serve": "/post/storyboardcompletedtrigger-and-setpropertyaction",
+            "statusCode": 301
+        },
+        {
+            "route": "/aliens-vs-finger",
+            "serve": "/post/aliens-vs-finger",
+            "statusCode": 301
+        },
+        {
+            "route": "/adding-application-insights-to-an-existing-windows-store-project-using-visual-studio-2013-update-3",
             "serve": "/post/adding-application-insights-to-an-existing-windows-store-project-using-visual-studio-2013-update-3",
             "statusCode": 301
-        }
+        },
+        {
+            "route": "/fixing-nuget-errors-after-removing-microsoft-bcl-build",
+            "serve": "/post/fixing-nuget-errors-after-removing-microsoft-bcl-build",
+            "statusCode": 301
+        },
+        {
+            "route": "/using-dynacache-with-simpleinjector",
+            "serve": "/post/using-dynacache-with-simpleinjector",
+            "statusCode": 301
+        },
     ]
 }
