@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Goatly.net</title>
+    <link>https://calm-desert-09481e703.azurestaticapps.net/</link>
+    <description>Recent content on Goatly.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © Mike Goatly; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 07 Aug 2014 11:55:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://calm-desert-09481e703.azurestaticapps.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/about/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/about/</guid>
+      <description>My name is Mike Goatly, husband, father and experienced software developer/architect/breaker. I&amp;rsquo;ve worked primarily with Microsoft technologies for well over 20 years so am somewhat of a Microsoft specialist, though I happily dabble in other things as needed. I build software for fun and a Windows 10 song library management app, Chordle.
+I currently work at Coeo building our internal platforms and software capabilities, though any opinions expressed on this site are mine alone.</description>
+    </item>
+    
+    <item>
+      <title>Adding Application Insights to an existing Windows Store project using Visual Studio 2013 Update 3</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/adding-application-insights-to-an-existing-windows-store-project-using-visual-studio-2013-update-3/</link>
+      <pubDate>Thu, 07 Aug 2014 11:55:08 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/adding-application-insights-to-an-existing-windows-store-project-using-visual-studio-2013-update-3/</guid>
+      <description>As of Update 3, Visual Studio 2013 now has support for Application Insights built in, so I thought I’d have a play with it again.
+Right now, my primary focus is adding instrumentation to a Windows 8 Store app I’m working on. I’d tried to do it with the previous Application Insights release (which was in preview), but found the need to explicitly build the app for all the various CPU targets a burden I could do without.</description>
+    </item>
+    
+    <item>
+      <title>Fixing NuGet errors after removing Microsoft.Bcl.Build</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/fixing-nuget-errors-after-removing-microsoft-bcl-build/</link>
+      <pubDate>Tue, 05 Aug 2014 20:20:36 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/fixing-nuget-errors-after-removing-microsoft-bcl-build/</guid>
+      <description>I found that a solution of mine was still referencing the Microsoft.Bcl.Build nuget project, and as I was using Visual Studio 2013, I figured it was no longer needed, so I removed it. After doing this, some of the projects refused to compile, reporting the error:
+ This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them. For more information, see http://go.microsoft.com/fwlink/?LinkID=317567.</description>
+    </item>
+    
+    <item>
+      <title>Using DynaCache with SimpleInjector</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/using-dynacache-with-simpleinjector/</link>
+      <pubDate>Fri, 20 Jun 2014 11:39:50 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/using-dynacache-with-simpleinjector/</guid>
+      <description>@Colly_Mc_K asked me on twitter (and in my poorly moderated comments feed – sorry, Colly!) if it was possible to use DynaCache with SimpleInjector.
+Although I’ve used SimpleInjector a bit before, I hadn’t actually tried it with DynaCache. It turns out that the sample code for Ninject translates fairly well - here’s a sample bit of code that should do the trick with SimpleInjector:</description>
+    </item>
+    
+    <item>
+      <title>Customizing table names for IdentityDbContextWithCustomUser data contexts</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/customizing-table-names-for-identitydbcontextwithcustomuser-data-contexts/</link>
+      <pubDate>Mon, 23 Sep 2013 18:53:11 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/customizing-table-names-for-identitydbcontextwithcustomuser-data-contexts/</guid>
+      <description>I was playing around with Visual Studio 2013 and Entity Framework 6 in an MVC 5 application recently, and was impressed with the level of support that is provided out of the box for oAuth. If you create a new ASP.NET MVC 5 site with the Individual User Accounts authentication option and follow all the instructions on MSDN, it&amp;rsquo;s trivial getting at least Google authentication working against a new site.</description>
+    </item>
+    
+    <item>
+      <title>PersistedFullTextIndexes with non-primitive types</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/persistedfulltextindexes-with-non-primitive-types/</link>
+      <pubDate>Mon, 27 May 2013 09:03:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/persistedfulltextindexes-with-non-primitive-types/</guid>
+      <description>When you construct a PersistedFullTextIndex with a primitive type, such as int, you just need to define it like this:
+1var index = new PersistedFullTextIndex&amp;lt;int&amp;gt;(filePath); However if you try to do this with something more complicated, such as a class or even just a Guid, you’ll get an exception like this:
+1Unable to automatically serialize type Guid This because the framework doesn’t know how to (de)serialize these types when reading and writing to the backing file.</description>
+    </item>
+    
+    <item>
+      <title>Using DynaCache with Unity</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/using-dynacache-with-unity/</link>
+      <pubDate>Sat, 18 May 2013 11:35:38 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/using-dynacache-with-unity/</guid>
+      <description>I’ve had a couple of people ask for concrete examples of using DynaCache with frameworks other than Ninject. The first one that I’ve put together is for Unity.
+You’ll find the Unity example in the DynaCache documentation here.</description>
+    </item>
+    
+    <item>
+      <title>StoryboardCompletedTrigger and SetPropertyAction</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/storyboardcompletedtrigger-and-setpropertyaction/</link>
+      <pubDate>Thu, 21 Mar 2013 20:31:59 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/storyboardcompletedtrigger-and-setpropertyaction/</guid>
+      <description>I’ve spent a couple of hours on WinRTTriggers tonight and added a couple of features that have been requested recently, StoryboardCompletedTrigger and SetPropertyAction.
+StoryboardCompletedTrigger This trigger allows to to fire an action when a storyboard completes – you can use it like this:
+1&amp;lt;Triggers:StoryboardCompletedTrigger Storyboard=&amp;#34;{StaticResource FlashNameChanged}&amp;#34;&amp;gt; 2 &amp;lt;!-- insert your action(s) here --&amp;gt; 3&amp;lt;/Triggers:StoryboardCompletedTrigger&amp;gt; SetPropertyAction This allows you to react to a trigger by setting a property on an object – most likely your view model:</description>
+    </item>
+    
+    <item>
+      <title>Aliens vs Finger</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/aliens-vs-finger/</link>
+      <pubDate>Mon, 25 Feb 2013 19:09:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/aliens-vs-finger/</guid>
+      <description>I&amp;rsquo;ve been working on another game for Windows Phone (7.5+) and the result is Aliens vs Finger!
+Aliens vs Finger is a (hopefully!) fun tap-&amp;lsquo;em-up game where you have to squish the aliens and stop the meteors crossing the screen, all the while being careful to not hit the friendly spacemen. Although it&amp;rsquo;s in the market place as a paid app (the lowest price possible!) - the entire game is available as an ad-supported trial, so you&amp;rsquo;ve got nothing to lose by giving it a go - only purchase if you enjoy it!</description>
+    </item>
+    
+    <item>
+      <title>Using Azure Mobile Services from Windows Phone 7 apps</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/using-azure-mobile-services-from-windows-phone-7-apps/</link>
+      <pubDate>Sat, 10 Nov 2012 16:04:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/using-azure-mobile-services-from-windows-phone-7-apps/</guid>
+      <description>Azure Mobile Services is an pretty cool platform that I’ve only just started trying out. Microsoft provide quick jumpstart projects for Windows Store, Windows Phone 8 and iOS apps – but that’s it. If you’re like me and are stuck working on a “legacy” app such as the Windows Phone 7 game that I’ve been working on for a couple of weeks now, then you’re largely on your own.
+If you’re in the same situation, I would recommend that you check out the azure-mobile-csharp-sdk project by Ken Egozi.</description>
+    </item>
+    
+    <item>
+      <title>Using WinRTTriggers within data templates</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/using-winrttriggers-within-data-templates/</link>
+      <pubDate>Sat, 03 Nov 2012 13:14:12 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/using-winrttriggers-within-data-templates/</guid>
+      <description>Kaki104 recently commented that they were having a problem using triggers in a certain situation. Helpfully a simple repro was provided – a simple grid view, with an attempt to start a storyboard when an item is clicked:
+The trigger had been placed within the data template of the item:
+1&amp;lt;DataTemplate x:Key=&amp;#34;DataTemplate1&amp;#34;&amp;gt; 2 &amp;lt;Grid HorizontalAlignment=&amp;#34;Left&amp;#34; Width=&amp;#34;250&amp;#34; Height=&amp;#34;250&amp;#34;&amp;gt; 3 &amp;lt;Grid.Resources&amp;gt; 4 &amp;lt;Storyboard x:Key=&amp;#34;storyboard1&amp;#34;&amp;gt; 5 &amp;lt;ColorAnimationUsingKeyFrames Storyboard.TargetProperty=&amp;#34;(Border.Background).(SolidColorBrush.Color)&amp;#34; Storyboard.TargetName=&amp;#34;border&amp;#34;&amp;gt; 6 &amp;lt;EasingColorKeyFrame KeyTime=&amp;#34;0&amp;#34; Value=&amp;#34;#FFB8B5B5&amp;#34;/&amp;gt; 7 &amp;lt;EasingColorKeyFrame KeyTime=&amp;#34;0:0:1&amp;#34; Value=&amp;#34;#FF3C3B3B&amp;#34;/&amp;gt; 8 &amp;lt;/ColorAnimationUsingKeyFrames&amp;gt; 9 &amp;lt;ColorAnimationUsingKeyFrames Storyboard.</description>
+    </item>
+    
+    <item>
+      <title>Using LiveDataScript</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/using-livedatascript/</link>
+      <pubDate>Sat, 13 Oct 2012 12:50:47 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/using-livedatascript/</guid>
+      <description>LiveDataScript is a little utility to generate SQL insert scripts from SQL Server databases. I wrote it quite a few years ago, but since it’s still fairly useful and the last place it was hosted has now gone the way of the Dodo, I’ve re-hosted it here.
+This post will cover the high-level basics of using the application.
+Getting started After starting LiveDataScript you’ll be prompted to select the server to connect to:</description>
+    </item>
+    
+    <item>
+      <title>Conditional trigger actions with WinRTTriggers</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/conditional-trigger-actions-with-winrttriggers/</link>
+      <pubDate>Sun, 07 Oct 2012 20:23:43 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/conditional-trigger-actions-with-winrttriggers/</guid>
+      <description>WinRTTriggers is a available from the codeplex project site or from nuget.
+  Sample code for this post can be downloaded here.
+ The latest update to WinRTTriggers (v1.1.0) includes 2 big changes:
+ Multiple actions can be specified against a trigger An action can have conditions associated to it  The first point is fairly self explanatory, but the second deserves a bit more elaboration.
+Take the situation where on the first use of your application you want to introduce the user to certain features using a storyboard animation.</description>
+    </item>
+    
+    <item>
+      <title>Triggers in WinRT XAML</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/triggers-in-winrt-xaml/</link>
+      <pubDate>Fri, 28 Sep 2012 16:04:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/triggers-in-winrt-xaml/</guid>
+      <description>All the code for WinRTTriggers is available from the CodePlex project site, and is available in binary form in a nuget package.
+ A few months ago I attended one of Microsoft&amp;rsquo;s &amp;ldquo;Windows Phone to Windows 8 App&amp;rdquo; events. The intent was to take Equazorand migrate it to a Windows Store application as much as possible over the space of two days.
+On the whole, the event was really useful to just hang out with a bunch of other developers (along with some Microsofties like Mike Taulty and Martin Beeby) and I managed to port all the &amp;ldquo;business logic&amp;rdquo; of the app pretty successfully - you would expect so given that I had used the MVVM pattern with MvvmLight, which is now available for WinRT XAML applications.</description>
+    </item>
+    
+    <item>
+      <title>Equazor</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/equazor/</link>
+      <pubDate>Thu, 20 Sep 2012 21:08:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/equazor/</guid>
+      <description>A couple of months ago I released my first Windows Phone game into the wild. It’s a “maths-based puzzle game” that will challenge, infuriate (hopefully not too much!) and with a bit of practice, genuinely develop your mental arithmetic.
+The premise is simple – you have to highlight a sequence of tiles forming an equation that results in a target number. It’s easy to start with, with just add and subtract and a limited number of tiles to play with, but it soon gets harder when the multiplication is introduced and the playing area and target numbers get larger.</description>
+    </item>
+    
+    <item>
+      <title>New host, new look</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/new-host-new-look/</link>
+      <pubDate>Wed, 19 Sep 2012 19:09:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/new-host-new-look/</guid>
+      <description>There hasn’t been much activity here for a while for several reasons, including a new job and the small matter of a total server failure for a few months…
+…but now I’m back. I’m on a new host, a new platform (Orchard) and have a new look that I threw together – ok, I’m no professional graphic designer, but hey, it adapts to small screens nicer than the last one did!</description>
+    </item>
+    
+    <item>
+      <title>Export all tables in an Access database to CSV</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/export-all-tables-in-an-access-database-to-csv/</link>
+      <pubDate>Tue, 29 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/export-all-tables-in-an-access-database-to-csv/</guid>
+      <description>I don&amp;rsquo;t usually mess around with Access much, but when I do it&amp;rsquo;s usually to have it act as an intermediary data source while I&amp;rsquo;m getting data from one format to another.
+I had just such a problem to solve today, and the usually excellent out-of-the-box import/export processes let me down a little. Essentially I needed to get the data from each of the tables into separate CSV files - unfortunately I had quite a few tables to do and the UI only allows you to do one at a time.</description>
+    </item>
+    
+    <item>
+      <title>Why have my visual state changes stopped working?</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/why-have-my-visual-state-changes-stopped-working/</link>
+      <pubDate>Tue, 22 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/why-have-my-visual-state-changes-stopped-working/</guid>
+      <description>This took me a little while to work out, and searching for an answer didn&amp;rsquo;t help me out, so I thought it might be helpful to post this as a pointer to anyone else who encounters the same problem.
+My scenario:
+ A Silverlight Windows Phone 7.1 App a control with a number of visual states applied to it Interaction triggers that switch between the various states  Everything was working fine until I wrapped the root element of my control in another container element - all of a sudden the visual states stopped working at runtime.</description>
+    </item>
+    
+    <item>
+      <title>Hooking into session start events in an HTTP module</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/hooking-into-session-start-events-in-an-http-module/</link>
+      <pubDate>Wed, 25 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/hooking-into-session-start-events-in-an-http-module/</guid>
+      <description>According to the MSDN documentation you can&amp;rsquo;t handle Session Start events in an HTTP module. The reason for this is because when you are initialising an HTTP module you hook into events associated to the HttpApplication class, and HttpApplication doesn&amp;rsquo;t expose any events relating to the starting of sessions.
+As a refresher, the Init method will typically look like something like this:
+1public void Init(HttpApplication context) 2{ 3 // Hook into the HttpApplication events you want to respond to 4 context.</description>
+    </item>
+    
+    <item>
+      <title>Article on using SqlBulkCopy with POCOs</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/article-on-using-sqlbulkcopy-with-pocos/</link>
+      <pubDate>Fri, 20 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/article-on-using-sqlbulkcopy-with-pocos/</guid>
+      <description>I realised that I never pushed this on my blog at all, so belatedly I will.
+Last year I wrote an article for Developer Fusion that discussed how you could make use of SqlBulkCopy to do high performance inserts when you were working with POCOs, rather than inserting them entity by entity using an ORM.
+The bottom line was that inserting 10,000 records took only 57ms using the generic SqlBulkCopy approach I describe, rather than 2159ms to insert them on a record-by-record basis.</description>
+    </item>
+    
+    <item>
+      <title>DynaCache- just like page output caching, but for classes</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/dynacache-just-like-page-output-caching-but-for-classes/</link>
+      <pubDate>Sun, 15 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/dynacache-just-like-page-output-caching-but-for-classes/</guid>
+      <description>Anyone who has done any serious work with any ASP.NET based framework will know that page output caching is a great feature. For those not familiar with it, the basic premise is that it makes sure that the generation of content is done only once for a set of parameters, and that all subsequent requests with the same parameters are served up from the cache for a specified period of time.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: Using LIFTI in an MVC 3 web application</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/tutorial-using-lifti-in-an-mvc-3-web-application/</link>
+      <pubDate>Fri, 01 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/tutorial-using-lifti-in-an-mvc-3-web-application/</guid>
+      <description>Updated 25/02/2012 - it was highlighted that some of the seach phrases used towards the end of this article were not returning the expected results - that was down to me making assumptions about which words would be stemmed - these examples have been updated.
+This tutorial will take you through an end-to-end implementation of a simple web site to manage a list of employees. LIFTI will be used to perform full text searching of plain text information associated to the employees.</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework Code First: &#34;The path is not valid. Check the directory for the database&#34;</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/entity-framework-code-first-the-path-is-not-valid-check-the-directory-for-the-database/</link>
+      <pubDate>Mon, 27 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/entity-framework-code-first-the-path-is-not-valid-check-the-directory-for-the-database/</guid>
+      <description>If you create a new MVC application and try to go down the Code First with SQL Server Compact route, you might encounter this error when you first start the application:
+ The path is not valid. Check the directory for the database.**[ Path = …\WebSample\App_Data\YourDatabase.sdf ]
+ This error might be a surprise because by default the code first approach should create the database for you if it doesn&amp;rsquo;t already exist.</description>
+    </item>
+    
+    <item>
+      <title>LIFTI XmlWordSplitter</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/lifti-xmlwordsplitter/</link>
+      <pubDate>Fri, 10 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/lifti-xmlwordsplitter/</guid>
+      <description>The XmlWordSplitter is a new word splitter class in the latest release of LIFTI. I created it mainly because it was required for the persisted index sample, but it seemed too useful to keep out of the core framework.
+At a very high level the XmlWordSplitter just enumerates words contained within elements in a piece of XML text. This means that element names, attributes and their associated values will not be indexed.</description>
+    </item>
+    
+    <item>
+      <title>Changes to the LIFTI API</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/changes-to-the-lifti-api/</link>
+      <pubDate>Wed, 08 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/changes-to-the-lifti-api/</guid>
+      <description>This post relates to the breaking changes between version 0.4 and 0.5 of LIFTI. LIFTI is a full-text indexing library for .NET - find out more on its CodePlex site.
+ The latest release of LIFTI has several breaking changes that will affect you, so I wanted to take some time to explain not only what they are, but why I made them. I&amp;rsquo;ll start with the what, then move onto the why.</description>
+    </item>
+    
+    <item>
+      <title>Debugging &#34;The agent process was stopped while the test was running&#34;</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/debugging-the-agent-process-was-stopped-while-the-test-was-running/</link>
+      <pubDate>Mon, 25 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/debugging-the-agent-process-was-stopped-while-the-test-was-running/</guid>
+      <description>I&amp;rsquo;ve encountered the unhelpful &amp;ldquo;The agent process was stopped while the test was running&amp;rdquo; MSTest error result a couple of times recently, and I thought that I&amp;rsquo;d share a few of my findings and approaches to debugging the unit tests that cause them.
+The MSTest &amp;ldquo;Error&amp;rdquo; Result In my experience, the Error result usually manifests itself for one of a two reasons:
+ A critical error occurred during the execution of the test.</description>
+    </item>
+    
+    <item>
+      <title>Using Windows Live Mesh to synchronize your draft blog posts</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/using-windows-live-mesh-to-synchronize-your-draft-blog-posts/</link>
+      <pubDate>Tue, 12 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/using-windows-live-mesh-to-synchronize-your-draft-blog-posts/</guid>
+      <description>I use Windows Live Writer to put together all my blog posts, but I also use multiple computers. I&amp;rsquo;ll sometimes find myself writing a draft post on one computer and wanting to carry on editing it on another.
+Live Writer stores draft posts in Documents\My Weblog Posts\Drafts, and in the past I&amp;rsquo;ve just manually copied these draft files from one computer to another, however it recently occurred to me that I could use Windows Live Mesh to automate this for me.</description>
+    </item>
+    
+    <item>
+      <title>Describing the LIFTI persistence file format</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/describing-the-lifti-persistence-file-format/</link>
+      <pubDate>Fri, 08 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/describing-the-lifti-persistence-file-format/</guid>
+      <description>This post will break down how the data in a LIFTI persisted full text index is structured on disk. It might be a bit dry for some, so I&amp;rsquo;ve tried to spice it up as much as possible with pretty pictures!
+Birds-eye view 
+The file is broken up into two areas, headers and page data. Each data page is is 8Kb in length and contains 1 or more entries. (The only time you might find a page that is not marked as unused and still contains 0 entries is when the index is completely empty.</description>
+    </item>
+    
+    <item>
+      <title>Persisting GetHashCode values is a staggeringly bad thing to do, and you should know better</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/persisting-gethashcode-values-is-a-staggeringly-bad-thing-to-do-and-you-should-know-better/</link>
+      <pubDate>Mon, 04 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/persisting-gethashcode-values-is-a-staggeringly-bad-thing-to-do-and-you-should-know-better/</guid>
+      <description>The title pretty much sums up my feelings on the subject, but it probably needs a bit of context.
+I&amp;rsquo;ve been doing some work for a client that relies on a 3rd party application framework (No, I&amp;rsquo;m not going to name and shame the framework!). The application is split across multiple servers and we&amp;rsquo;ve been upgrading some of them to a 64bit environment. Once we had completed the upgrade process, other parts of the application, on other servers, started breaking.</description>
+    </item>
+    
+    <item>
+      <title>Implementing a persisted file store for LIFTI</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/implementing-a-persisted-file-store-for-lifti/</link>
+      <pubDate>Tue, 29 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/implementing-a-persisted-file-store-for-lifti/</guid>
+      <description>Over a month ago I started to write a persisted file store for LIFTI. Given that I&amp;rsquo;d pretty much just finished implementing binary serialization for indexes, why would I want to do that?
+Serialization vs. persistence I wrote the serialization classes because I knew that it wasn&amp;rsquo;t always going to be appropriate to re-index all the data every time an application started up. These classes allowed for the current state of an index to be saved to and reloaded from disk.</description>
+    </item>
+    
+    <item>
+      <title>Problems programatically creating AppPool</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/problems-programatically-creating-apppool/</link>
+      <pubDate>Mon, 21 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/problems-programatically-creating-apppool/</guid>
+      <description>I was creating an AppPool using the Microsoft.Web.Administration assembly today and kept running into this in the Application event log:
+ The worker process failed to initialize correctly and therefore could not be started. The data is the error.
+ The only &amp;ldquo;helpful&amp;rdquo; code that was provided in the event data was 57000780. Not great, but it was at least consistent.
+It turns out that the ManagedRuntimeVersion property of the ApplicationPool object is case sensitive, so setting it to V4.</description>
+    </item>
+    
+    <item>
+      <title>NotSupportedException when calling EndGetResponse in Silverlight</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/notsupportedexception-when-calling-endgetresponse-in-silverlight/</link>
+      <pubDate>Fri, 18 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/notsupportedexception-when-calling-endgetresponse-in-silverlight/</guid>
+      <description>This one had me stumped for a little while today. I was using a WebRequest in a Silverlight 4 application to post some data to an API endpoint, and whenever I called EndGetResponse, a NotSupportedException was thrown.
+To help illustrate the problem, here&amp;rsquo;s a mock-up of the code:
+1 2using System; 3using System.Net; 4using System.Windows.Controls; 5 6namespace SilverlightApplication1 7{ 8 public partial class MainPage : UserControl 9 { 10 public MainPage() 11 { 12 InitializeComponent(); 13 14 var request = (HttpWebRequest)WebRequest.</description>
+    </item>
+    
+    <item>
+      <title>Debugging bad request errors-Windows Live SDK</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/debugging-bad-request-errors-windows-live-sdk/</link>
+      <pubDate>Wed, 02 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/debugging-bad-request-errors-windows-live-sdk/</guid>
+      <description>Important note - this code is not to be considered production quality - as always feel free to use it, but please take it with a handful of salt. In my experience working with these sorts of APIs can be a real killer if you&amp;rsquo;re not extremely careful about how you write your code.
+When you&amp;rsquo;re making calls to the live.com endpoints from .NET code, you&amp;rsquo;ll probably be doing something like this:</description>
+    </item>
+    
+    <item>
+      <title>Building a debugger visualizer for generic types</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/building-a-debugger-visualizer-for-generic-types/</link>
+      <pubDate>Mon, 31 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/building-a-debugger-visualizer-for-generic-types/</guid>
+      <description>You can find the source code relating to this posthere.**
+Since Visual Studio 2005 we have been able to write debugger visualizers to help us look at data in a more convenient way whilst debugging.
+A while ago I needed to write a visualizer for LIFTI - the problem that I had was that the type I wanted to visualize was generic, and it&amp;rsquo;s not straightforward to write a visualizer for a generic type.</description>
+    </item>
+    
+    <item>
+      <title>Performance tuning using Visual Studio 2010</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/performance-tuning-using-visual-studio-2010/</link>
+      <pubDate>Tue, 25 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/performance-tuning-using-visual-studio-2010/</guid>
+      <description>In this post I&amp;rsquo;ll be showing you how to use Visual Studio 2010 performance analysis tools to find slow parts in your code, make changes and then verify that those fixes have actually been beneficial.
+I will be analyzing the LIFTI code as of change set 54973, so if you want to you can download it and follow along, although the general principles will be the same regardless of project.</description>
+    </item>
+    
+    <item>
+      <title>Writing multi-threaded unit tests</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/writing-multi-threaded-unit-tests/</link>
+      <pubDate>Sun, 16 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/writing-multi-threaded-unit-tests/</guid>
+      <description>In my last blog post I described how I implemented the lock manager in LIFTI. This was pretty straightforward because ReaderWriterLockSlim was leveraged to do all of the really heavy lifting, but the hard part came when I wanted to unit test the code.
+This post will take you through the thought and implementation process I went through to make this happen.
+Test cases The four key scenarios I wanted to test were:</description>
+    </item>
+    
+    <item>
+      <title>Implementing thread safety in LIFTI</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/implementing-thread-safety-in-lifti/</link>
+      <pubDate>Tue, 11 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/implementing-thread-safety-in-lifti/</guid>
+      <description>I&amp;rsquo;ve wanted to get a bit of thread-safety going in LIFTI for a little while now because one of the my target scenarios was for the index to be hosted in a website.
+The index is already thread safe for concurrent reads, but it would definitely be a really bad thing if we started mixing concurrent writes with our reads, not least because LIFTI makes heavy use of the generic Dictionary class.</description>
+    </item>
+    
+    <item>
+      <title>LIFTI-Changes ahoy</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/lifti-changes-ahoy/</link>
+      <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/lifti-changes-ahoy/</guid>
+      <description>Happy new year! If anyone has been following the recent check-ins that have been happening over on the LIFTI CodePlex site will have noticed quite a bit of activity over the Christmas period. In this article, I&amp;rsquo;ll try to summarise what those changes have been and why they were introduced in the way that they were.
+In short, these changes are:
+ Query parsing Updatable indexes Index serialization and de-serialization  Breaking Changes Before I go any further, it&amp;rsquo;s probably worth noting this: the only breaking change (that comes to mind now…) is that the FullTextIndexer class has been renamed FullTextIndex.</description>
+    </item>
+    
+    <item>
+      <title>Advanced querying with LIFTI</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/advanced-querying-with-lifti/</link>
+      <pubDate>Fri, 24 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/advanced-querying-with-lifti/</guid>
+      <description>As always, you can find the LIFTI project at its CodePlex home: http://lifti.codeplex.com.
+ Until now, the way in which you can query against LIFTI has been pretty basic. If you searched for &amp;ldquo;apple orange&amp;rdquo;, you would only get items back that had words starting with both apple and orange in their associated text.
+For simple scenarios this is fine, but what if you wanted to search for apple or orange?</description>
+    </item>
+    
+    <item>
+      <title>401 Unauthorized when Acquiring an Access Token: Windows Live SDK</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/401-unauthorized-when-acquiring-an-access-token-windows-live-sdk/</link>
+      <pubDate>Thu, 23 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/401-unauthorized-when-acquiring-an-access-token-windows-live-sdk/</guid>
+      <description>Working with other people is hard. Working with new SDK documentation is even harder, especially when it&amp;rsquo;s wrong.
+If you&amp;rsquo;re following the Working with OAuth WRAP Windows Live SDK documentation and you get to the Acquiring an Access Token sample you&amp;rsquo;ll probably encounter a 401 unauthorized error when you try and read the response from https://consent.live.com/AccessToken.aspx. This is because the POST data that the sample code gets you to build up is incorrect.</description>
+    </item>
+    
+    <item>
+      <title>LIFTI and Porter stemming</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/lifti-and-porter-stemming/</link>
+      <pubDate>Tue, 07 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/lifti-and-porter-stemming/</guid>
+      <description>Back in the original post where I first introduced LIFTI I wrote:
+ LIFTI will not...:
+ Handle word derivatives, e.g. if &amp;ldquo;Cats&amp;rdquo; is searched for, objects containing just the word &amp;ldquo;Cat&amp;rdquo; would not be returned.   This was always something that I wanted to handle, but felt that it was better to have a simple system that actually worked than an incomplete complex system. I&amp;rsquo;ve been a bit slack in updating the LIFTI code, but this has always been at the top of my list of things to implement.</description>
+    </item>
+    
+    <item>
+      <title>Using T4 to generate content at runtime</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/using-t4-to-generate-content-at-runtime/</link>
+      <pubDate>Fri, 19 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/using-t4-to-generate-content-at-runtime/</guid>
+      <description>UPDATE 9 April 2014: The source is also available on GitHub** **
+T4 (the Text Template Transformation Toolkit) is slowly becoming more widely known as a way to generate code to be compiled and used alongside hand-written code. Frameworks such as the Entity Framework V4 have adopted it for its code generation, allowing you to simply switch out the default class template for an alternative, e.g. POCO entity classes.
+Whilst it seems to be fairly well known that T4 can be used to generate output at design time, it is less well known that you can actually use a T4 template at runtime as well.</description>
+    </item>
+    
+    <item>
+      <title>LIFTI: Searching Pascal-cased words</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/lifti-searching-pascal-cased-words/</link>
+      <pubDate>Thu, 18 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/lifti-searching-pascal-cased-words/</guid>
+      <description>This post will show how LIFTI can be adapted to index and search upon Pascal-cased words, similar to Visual Studio 2010&amp;rsquo;s Navigate To window. (Or Resharper&amp;rsquo;s Go to symbol command, if you&amp;rsquo;re so inclined)
+ The code for this sample can be found in the Lifti solution: http://lifti.codeplex.com/SourceControl/list/changesets- you&amp;rsquo;ll find the sample project in the Samples solution folder:
+
+ The way the default word splitter works is by breaking a phrase into separate words wherever whitespace characters appear - by changing this behaviour to break on changes in capitalisation, we&amp;rsquo;re pretty much all the way there:</description>
+    </item>
+    
+    <item>
+      <title>Errors using a custom RIA authentication service (and how to resolve them)</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/errors-using-a-custom-ria-authentication-service-and-how-to-resolve-them/</link>
+      <pubDate>Wed, 30 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/errors-using-a-custom-ria-authentication-service-and-how-to-resolve-them/</guid>
+      <description>If you&amp;rsquo;ve created your own authentication service for a Silverlight RIA application, you might encounter the following scenarios:
+1) If you get the following errors:
+ GetUser should have returned a single user Logout should have returned a single, anonymous user  Then the chances are your implementation of GetDefaultUser is returning null.
+2) However, if you get these:
+ Load operation failed for query &amp;lsquo;GetUser&amp;rsquo;. Entity &amp;lsquo;User : null&amp;rsquo; cannot be added to cache because it doesn&amp;rsquo;t have a valid identity Load operation failed for query &amp;lsquo;Logout&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Creating a lightweight in-memory full text indexer</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/creating-a-lightweight-in-memory-full-text-indexer/</link>
+      <pubDate>Fri, 29 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/creating-a-lightweight-in-memory-full-text-indexer/</guid>
+      <description>Introduction SQL Server provides a really powerful full text index feature whereby you can run queries along the lines of &amp;ldquo;find me comments that contain the words &amp;lsquo;success&amp;rsquo; and &amp;lsquo;happy&amp;rsquo;&amp;quot;. That&amp;rsquo;s all well and good when you are using SQL Server to retrieve data, but what do you do if you&amp;rsquo;re using some other data store, e.g. SQL Server Compact, a flat file, or even a set of .NET objects, and need to do something similar?</description>
+    </item>
+    
+    <item>
+      <title>Using a recursive CTE to read the root parent id of a hierarchical table</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/using-a-recursive-cte-to-read-the-root-parent-id-of-a-hierarchical-table/</link>
+      <pubDate>Tue, 08 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/using-a-recursive-cte-to-read-the-root-parent-id-of-a-hierarchical-table/</guid>
+      <description>Note that this post could be considered the second part in my previously incredibly short series of 1 posts: Good Uses for SQL Server 2005 Common Table Expressions - previous entries being:
+ Part 1 - Determining the top and bottom n pieces of information in a set Part 0 - Introduction  --
+Ok, so the title of the post is a bit of a mouthful - sorry about that.</description>
+    </item>
+    
+    <item>
+      <title>How to determine the version of IIS</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/how-to-determine-the-version-of-iis/</link>
+      <pubDate>Mon, 09 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/how-to-determine-the-version-of-iis/</guid>
+      <description>It took me far too long to work this out; I needed to know whether or not it was safe to try and set the ManagedPipelineMode property on an AppPool, and I figured the best way to do it would be to check the current IIS version and if it was 7.0 or above. The code to get the current version is straightforward, once you know the names of the properties to read:</description>
+    </item>
+    
+    <item>
+      <title>Creating MSBuild XSD schemas for your custom tasks</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/creating-msbuild-xsd-schemas-for-your-custom-tasks/</link>
+      <pubDate>Mon, 08 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/creating-msbuild-xsd-schemas-for-your-custom-tasks/</guid>
+      <description>Update 12/10/2012 - Since the LSS website is no longer active, I&amp;rsquo;ve moved the download to this site.
+ I&amp;rsquo;ve just uploaded a little utility onto our website herethe downloads section on this site that should help those developers that write their own MSBuild tasks.
+One of the nice features that&amp;rsquo;s a little hidden in Visual Studio is its ability to provide IntelliSense and auto-completion for XML files based on the schemas that they reference, as long as the reference XSDs are included in {ProgramFiles}\{MicrosoftVisualStudioFolder}\Xml\Schemas\1033.</description>
+    </item>
+    
+    <item>
+      <title>Collapsing Visual Studio Solution Explorer to Project Definitions</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/collapsing-visual-studio-solution-explorer-to-project-definitions/</link>
+      <pubDate>Wed, 23 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/collapsing-visual-studio-solution-explorer-to-project-definitions/</guid>
+      <description>Here&amp;rsquo;s a little macro I&amp;rsquo;ve just knocked up that will collapse a Visual Studio Solution to just its project definitions - put here so you can use it too and I have access to it everywhere I work!
+1 2Sub CollapseToProjects() 3 Dim items As UIHierarchyItems 4 Dim i As Integer 5 6 &amp;#39; Get the root Solution node 7 items = DTE.ToolWindows.SolutionExplorer.UIHierarchyItems() 8 If items.Count &amp;gt; 0 Then 9 &amp;#39; Get a pointer to all the nodes under the solution node 10 items = items.</description>
+    </item>
+    
+    <item>
+      <title>Good Uses for SQL Server 2005 Common Table Expressions (Part 1)</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/good-uses-for-sql-server-2005-common-table-expressions-part-1/</link>
+      <pubDate>Fri, 11 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/good-uses-for-sql-server-2005-common-table-expressions-part-1/</guid>
+      <description>Previous posts in this series:
+ Part 0 - Introduction  Determining the top and bottom n pieces of information in a set
+This scenario involves a set that has a column with both positive and negative ranges of data. The requirement is to filter it such that the only rows returned are those with the 3 highest positive and 3 lowest negative values - basically the two extremes.
+The sample data The data I&amp;rsquo;ll be working with in this example is in a table called SampleData, which contains:</description>
+    </item>
+    
+    <item>
+      <title>Good Uses for SQL Server 2005 Common Table Expressions (Part 0)</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/good-uses-for-sql-server-2005-common-table-expressions-part-0/</link>
+      <pubDate>Thu, 10 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/good-uses-for-sql-server-2005-common-table-expressions-part-0/</guid>
+      <description>A significant portion of my time as a developer is taken up looking into different approaches solving problems with newer technologies. Often it feels like I&amp;rsquo;m trying to understand the solution to a problem I haven&amp;rsquo;t yet defined, but I accept this because I look upon it as adding tools to my arsenal that I can draw upon when an appropriate situation arises.
+One such solution I&amp;rsquo;ve been aware of for a while now is the new Common Table Expressions (CTEs) feature and related Ranking and Windowing functions in SQL Server 2005, and I&amp;rsquo;ve recently found myself stuck with problems that are these features solve nicely.</description>
+    </item>
+    
+    <item>
+      <title>Determining Framework SDK Path</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/determining-framework-sdk-path/</link>
+      <pubDate>Mon, 06 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/determining-framework-sdk-path/</guid>
+      <description>Something I&amp;rsquo;ve needed to do a couple of times now is programmatically work out where the the Framework SDK is installed. Each time I have to find an example from an old project, because I can never remember exactly how I did it before, so for posterity (and to save me searching again), I&amp;rsquo;m posting it up here.
+Feel free to use this particular snippet however you want, but as usual, I don&amp;rsquo;t provide any warranties that it fit for purpose, etc, so use it at your own risk!</description>
+    </item>
+    
+    <item>
+      <title>Easy way to enter GUIDs for WiX scripts</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/easy-way-to-enter-guids-for-wix-scripts/</link>
+      <pubDate>Thu, 20 Jul 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/easy-way-to-enter-guids-for-wix-scripts/</guid>
+      <description>One of the pains of using WiX is that every component you create has to have its own unique GUID.Using the Tools/Create GUID... option from Visual Studio is one way to create a new GUID, but you have to copy and paste it into the right place in your script, which, when you have to create in the region of a trillion components, can be quite tiresome.The easiest way I&amp;rsquo;ve found of doing it is to create a custom macro, along the lines of:Sub Guid() DTE.</description>
+    </item>
+    
+    <item>
+      <title>Configuring ADAM to use SSL</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/configuring-adam-to-use-ssl/</link>
+      <pubDate>Thu, 13 Jul 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/configuring-adam-to-use-ssl/</guid>
+      <description>I&amp;rsquo;ve wasted muchos hours trying to configure ADAM to use SSL in an attempt to use securely it as a membership provider in ASP.NET 2.0, and one of the biggest problems was the documentation I found for it. The procedures I have managed to find on the internet are either wholly inadequate or simply incorrect.I&amp;rsquo;m posting the process I&amp;rsquo;ve documented at LSS so that hopefully others can get through the whole setup a bit quicker.</description>
+    </item>
+    
+    <item>
+      <title>LiveDataScript</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/downloads/livedatascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/downloads/livedatascript/</guid>
+      <description> LiveDataScript is no longer available for download. This page is kept for posterity.
+ LiveDataScript was a handy utility for Microsoft SQL Server 2005 and 2008 that allowed you to script data from a database into SQL insert statements. Features included:
+ Scripting of multiple tables, a single table or selected rows from a table Connecting to multiple servers, allowing you to script from different server into on file Scripting straight to a file, to the clipboard or to a new window Scripting derived columns or even completely arbitrary SQL - scripts are not confined to the columns currently in a table Scripting with identity insertion for tables that have identity columns  </description>
+    </item>
+    
+    <item>
+      <title>MSBuildSchemaGen</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/downloads/msbuildschemagen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/downloads/msbuildschemagen/</guid>
+      <description>MSBuildSchemaGen is no longer available for download. This page is kept for posterity.
+ MSBuildSchemaGen was a tool that generated MSBuild XSD schema files for custom MSBuild tasks, which allowed the Visual Studio editor to provide tooltips for your custom tasks when you are writing MSBuild scripts.
+MSBuildSchemaGen generated its schemas in such a way that it was able to handle tasks that derive from base Task classes, including abstract classes, and could also restrict inputs to parameters that required it by binding them to enumerations.</description>
+    </item>
+    
+  </channel>
+</rss>

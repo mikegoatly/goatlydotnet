@@ -1,0 +1,9 @@
+- item: "github"
+  url: "https://github.com/mikegoatly"
+- item: "twitter"
+  url: "https://twitter.com/mikegoatly"
+- item: "linkedin"
+  url: "https://www.linkedin.com/in/mikegoatly/"
+- item: "rss"
+  url: "index.xml"
+  internal:  true
