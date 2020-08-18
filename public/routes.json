@@ -1,0 +1,9 @@
+{
+    "routes":[
+        {
+            "route": "/oldbloglink.aspx",
+            "serve": "/post/adding-application-insights-to-an-existing-windows-store-project-using-visual-studio-2013-update-3/",
+            "statusCode": 301
+        }
+    ]
+}

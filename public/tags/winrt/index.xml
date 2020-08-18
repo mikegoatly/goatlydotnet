@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WinRT on Goatly.net</title>
+    <link>https://calm-desert-09481e703.azurestaticapps.net/tags/winrt/</link>
+    <description>Recent content in WinRT on Goatly.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © Mike Goatly; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 07 Aug 2014 11:55:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://calm-desert-09481e703.azurestaticapps.net/tags/winrt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adding Application Insights to an existing Windows Store project using Visual Studio 2013 Update 3</title>
+      <link>https://calm-desert-09481e703.azurestaticapps.net/post/adding-application-insights-to-an-existing-windows-store-project-using-visual-studio-2013-update-3/</link>
+      <pubDate>Thu, 07 Aug 2014 11:55:08 +0000</pubDate>
+      
+      <guid>https://calm-desert-09481e703.azurestaticapps.net/post/adding-application-insights-to-an-existing-windows-store-project-using-visual-studio-2013-update-3/</guid>
+      <description>As of Update 3, Visual Studio 2013 now has support for Application Insights built in, so I thought I’d have a play with it again.
+Right now, my primary focus is adding instrumentation to a Windows 8 Store app I’m working on. I’d tried to do it with the previous Application Insights release (which was in preview), but found the need to explicitly build the app for all the various CPU targets a burden I could do without.</description>
+    </item>
+    
+  </channel>
+</rss>
