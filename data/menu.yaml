@@ -1,6 +1,4 @@
 - name: Home
   link: /
-- name: Downloads
-  link: downloads/
 - name: About
   link: about/
