@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Downloads on Goatly.net</title>
-    <link>https://calm-desert-09481e703.azurestaticapps.net/downloads/</link>
+    <link>https://www.goatly.net/downloads/</link>
     <description>Recent content in Downloads on Goatly.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © Mike Goatly; all rights reserved.</copyright>
     
-	<atom:link href="https://calm-desert-09481e703.azurestaticapps.net/downloads/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.goatly.net/downloads/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LiveDataScript</title>
-      <link>https://calm-desert-09481e703.azurestaticapps.net/downloads/livedatascript/</link>
+      <link>https://www.goatly.net/downloads/livedatascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://calm-desert-09481e703.azurestaticapps.net/downloads/livedatascript/</guid>
+      <guid>https://www.goatly.net/downloads/livedatascript/</guid>
       <description> LiveDataScript is no longer available for download. This page is kept for posterity.
  LiveDataScript was a handy utility for Microsoft SQL Server 2005 and 2008 that allowed you to script data from a database into SQL insert statements. Features included:
  Scripting of multiple tables, a single table or selected rows from a table Connecting to multiple servers, allowing you to script from different server into on file Scripting straight to a file, to the clipboard or to a new window Scripting derived columns or even completely arbitrary SQL - scripts are not confined to the columns currently in a table Scripting with identity insertion for tables that have identity columns  </description>
@@ -23,10 +23,10 @@
     
     <item>
       <title>MSBuildSchemaGen</title>
-      <link>https://calm-desert-09481e703.azurestaticapps.net/downloads/msbuildschemagen/</link>
+      <link>https://www.goatly.net/downloads/msbuildschemagen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://calm-desert-09481e703.azurestaticapps.net/downloads/msbuildschemagen/</guid>
+      <guid>https://www.goatly.net/downloads/msbuildschemagen/</guid>
       <description>MSBuildSchemaGen is no longer available for download. This page is kept for posterity.
  MSBuildSchemaGen was a tool that generated MSBuild XSD schema files for custom MSBuild tasks, which allowed the Visual Studio editor to provide tooltips for your custom tasks when you are writing MSBuild scripts.
 MSBuildSchemaGen generated its schemas in such a way that it was able to handle tasks that derive from base Task classes, including abstract classes, and could also restrict inputs to parameters that required it by binding them to enumerations.</description>

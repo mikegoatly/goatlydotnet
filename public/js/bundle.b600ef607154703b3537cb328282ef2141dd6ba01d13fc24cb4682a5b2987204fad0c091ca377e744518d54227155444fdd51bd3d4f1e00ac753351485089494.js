@@ -6,7 +6,7 @@
 const doc = document.documentElement;
 const inline = ":inline";
 // variables read from your hugo configuration
-const parentURL = 'https://calm-desert-09481e703.azurestaticapps.net';
+const parentURL = 'https://www.goatly.net/';
 let showImagePosition = "false";
 
 const showImagePositionLabel = 'Figure';
