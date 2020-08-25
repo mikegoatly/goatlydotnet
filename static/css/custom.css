@@ -14,10 +14,33 @@ header {
     border-color: #888;
     border-style: solid;
     padding: 0.5em;
-    z-index: 500;
+    z-index: 1;
     position: relative;
     margin: 0.3em 0 0 0.3em;
     box-shadow: -4px 4px 5px #888;
+    background-color: var(--haze);
+}
+
+.toc li {
+    list-style-type: none;
+}
+
+html:not([data-mode="lit"]) .toc {
+    background-color: #0D3042;
+}
+
+html:not([data-mode="lit"]) .toc a {
+    color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+    .toc {
+        background-color: #0D3042;
+    }
+
+    html[data-mode="lit"] .toc {
+        background-color: var(--haze);
+    }
 }
 
 header nav {
