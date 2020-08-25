@@ -264,6 +264,6 @@
             "route": "/using-dynacache-with-simpleinjector",
             "serve": "/post/using-dynacache-with-simpleinjector",
             "statusCode": 301
-        },
+        }
     ]
 }
