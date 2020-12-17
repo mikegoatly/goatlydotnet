@@ -41,6 +41,14 @@ html:not([data-mode="lit"]) .toc a {
     html[data-mode="lit"] .toc {
         background-color: var(--haze);
     }
+
+    code.noClass {
+        color: rgb(194, 169, 50)
+    }
+    
+    .post_content a {
+        color: #3388c8;
+    }
 }
 
 header nav {
