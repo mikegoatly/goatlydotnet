@@ -12,6 +12,8 @@ tags:
   - LIFTI
 ---
 
+> LIFTI is an open source full text index library for .NET - you can check it out on [GitHub](https://github.com/mikegoatly/lifti)
+
 The Visual Studio Go To Symbol feature is smart enough that if you miss out letters it can still match with pretty good accuracy:
 
 ![](/images/post/visual-studio-searching.png)
