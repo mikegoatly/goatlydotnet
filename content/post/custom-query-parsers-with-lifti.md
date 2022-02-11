@@ -1,5 +1,5 @@
 ---
-title: "Advanced fuzzy matching with LIFTI"
+title: "Custom query parsers in LIFTI"
 date: "2022-02-11T00:00:00.0000000"
 author: "Mike Goatly"
 description: "How to build a custom query parser to replicate the searching used by Visual Studio's Go To Symbol"
