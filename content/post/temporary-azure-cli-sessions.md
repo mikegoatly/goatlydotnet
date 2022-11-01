@@ -1,7 +1,7 @@
 ---
 title: "Creating temporary Azure CLI login sessions"
-date: 2020-12-07T17:16:21Z 
-description: "Creating a temporary "
+date: 2022-11-01T18:26:21Z 
+description: "Creating a temporary login session with the Azure CLI"
 featured: true 
 draft: false 
 toc: false 
@@ -27,7 +27,7 @@ I ran into this issue recently because I needed to temporarily sign in as an Azu
 switch back to the original user's context.
 
 The Azure CLI allows you to control where its configuration folder is stored using the `AZURE_CONFIG_DIR` environment
-variable, and using this knowledge, I came up with this solution - feel free to use or adapt it to your needs.
+variable, and using this knowledge, I came up with this solution:
 
 ``` powershell
 try {
@@ -48,4 +48,12 @@ finally {
     Remove-Item $env:AZURE_CONFIG_DIR -Recurse -Force
     $env:AZURE_CONFIG_DIR = $null
 }
+```
+
+This does come with a health warning though - by switching over to a new config directory, you are also *temporarily getting rid of any
+management extensions that you have installed*. After switching back they will be available to you again, but if your script requires
+access to a management extension during the temporary session, you'll need to remember to install it. Something like this would work:
+
+``` powershell
+az extension add --upgrade -n <EXTENSIONNAME>
 ```
