@@ -133,4 +133,4 @@ foreach (var item in index.Search("fti"))
 
 I've put together a .NET Fiddle with the final example [over here](https://dotnetfiddle.net/RAv6r1) for you to play with.
 
-That's it - hopefully this shows how easy it can be to swap out the default query parser with something that meets your needs.
+That's it! Hopefully this shows how easy it can be to swap out the default query parser with something that meets your needs.
