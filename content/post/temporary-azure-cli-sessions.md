@@ -1,9 +1,9 @@
 ---
 title: "Creating temporary Azure CLI login sessions"
-date: 2022-11-01T18:26:21Z 
+date: "2022-11-01T18:26:21Z" 
 description: "Creating a temporary login session with the Azure CLI"
-featured: true 
 draft: false 
+author: "Mike Goatly"
 toc: false 
 codeMaxLines: 30
 categories:
