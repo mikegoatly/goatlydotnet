@@ -483,4 +483,4 @@ public class VirtualStringTests
 
   The grunt work had been done though!  I could have asked for ChatGPT to make the modifications, but at this point it was quicker to do them myself.
 
-  I would observe that some of the *prose* around the messages definitely doesn't make sense - the model doesn't really *understand* what's going. Nevertheless, as a tool it's still quite remarkable, but only on the understanding that you're really going to have to pay attention to what it's producing!
+  I would observe that some of the *prose* around the messages definitely doesn't make sense - the model doesn't really *understand* what's going on. Nevertheless, as a tool it's still quite remarkable, but only on the understanding that you're really going to have to pay attention to what it's producing!
