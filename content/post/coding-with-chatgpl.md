@@ -1,7 +1,7 @@
 ---
-title: "Coding With ChatGPL" 
+title: "Coding With ChatGPT" 
 date: 2022-12-06
-description: "An experiment using ChatGPL to accelerate some code" 
+description: "An experiment using ChatGPT to accelerate some code" 
 featured: true 
 toc: false 
 codeMaxLines: 100 
