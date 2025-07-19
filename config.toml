@@ -3,10 +3,15 @@ title = "Goatly.net"
 author = "Mike Goatly"
 copyright = "Copyright © Mike Goatly; all rights reserved."
 # canonifyurls = true
-paginate = 10
 theme = "hugo-clarity"
 
+[pagination]
+pagerSize = 10
+
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
   [markup.highlight]
     codeFences = true
     guessSyntax = true
