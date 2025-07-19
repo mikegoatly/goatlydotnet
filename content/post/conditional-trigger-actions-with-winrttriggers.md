@@ -8,7 +8,7 @@ author: "Mike Goatly"
 > 
 > 
 
-> Sample code for this post can be [downloaded here](http://www.goatly.net/Media/Default/Samples/ConditionalActionSample.zip)\.
+> Sample code for this post can be [downloaded here](/Media/Default/Samples/ConditionalActionSample.zip)\.
 > 
 > 
 

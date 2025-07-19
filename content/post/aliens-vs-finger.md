@@ -5,9 +5,9 @@ author: "Mike Goatly"
 ---
 I've been working on another game for Windows Phone \(7\.5\+\) and the result is [Aliens vs Finger](http://www.windowsphone.com/en-gb/store/app/aliens-vs-finger/02a04b4b-f284-4a6e-a424-33bc25763cc2)\!
 
-![6. MainMenu](http://www.goatly.net/Media/Default/Windows-Live-Writer/Aliens-vs-Finger_10A9F/6.%20MainMenu_c8552d67-fd44-4227-adcb-223a9ef04d07.png)
+![6. MainMenu](/Media/Default/Windows-Live-Writer/Aliens-vs-Finger_10A9F/6.%20MainMenu_c8552d67-fd44-4227-adcb-223a9ef04d07.png)
 
-![1. Game1](http://www.goatly.net/Media/Default/Windows-Live-Writer/Aliens-vs-Finger_10A9F/1.%20Game1_766c17a2-fb1f-4854-9882-b7b509e52b94.png)
+![1. Game1](/Media/Default/Windows-Live-Writer/Aliens-vs-Finger_10A9F/1.%20Game1_766c17a2-fb1f-4854-9882-b7b509e52b94.png)
 
 Aliens vs Finger is a \(hopefully\!\) fun tap\-'em\-up game where you have to squish the aliens and stop the meteors crossing the screen\, all the while being careful to not hit the friendly spacemen\. Although it's in the market place as a paid app \(the lowest price possible\!\) \- the entire game is available as an ad\-supported trial\, so you've got nothing to lose by giving it a go \- only purchase if you enjoy it\!
 

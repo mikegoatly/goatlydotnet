@@ -3,7 +3,7 @@ title: "Equazor"
 date: "2012-09-20T21:08:00.0000000"
 author: "Mike Goatly"
 ---
-![equazor_equationcomplete](http://www.goatly.net/Media/Default/Windows-Live-Writer/Equazor_9555/equazor_equationcomplete_3.png)A couple of months ago I released my first Windows Phone game into the wild\. It’s a “maths\-based puzzle game” that will challenge\, infuriate \(hopefully not too much\!\) and with a bit of practice\, genuinely develop your mental arithmetic\.
+![equazor_equationcomplete](/Media/Default/Windows-Live-Writer/Equazor_9555/equazor_equationcomplete_3.png)A couple of months ago I released my first Windows Phone game into the wild\. It’s a “maths\-based puzzle game” that will challenge\, infuriate \(hopefully not too much\!\) and with a bit of practice\, genuinely develop your mental arithmetic\.
 
 The premise is simple – you have to highlight a sequence of tiles forming an equation that results in a target number\. It’s easy to start with\, with just add and subtract and a limited number of tiles to play with\, but it soon gets harder when the multiplication is introduced and the playing area and target numbers get larger\. Oh\, and you’re up against the clock\, so there is some pressure\!
 

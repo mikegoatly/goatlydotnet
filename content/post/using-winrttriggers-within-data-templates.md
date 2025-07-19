@@ -5,7 +5,7 @@ author: "Mike Goatly"
 ---
 [Kaki104 recently commented](/triggers-in-winrt-xaml#comments) that they were having a problem using triggers in a certain situation\. Helpfully a simple repro was provided – a simple grid view\, with an attempt to start a storyboard when an item is clicked:
 
-![image](http://www.goatly.net/Media/Default/Windows-Live-Writer/ab3082f74259_A766/image_3.png)
+![image](/Media/Default/Windows-Live-Writer/ab3082f74259_A766/image_3.png)
 
 The trigger had been placed within the data template of the item:
 
@@ -41,7 +41,7 @@ The trigger had been placed within the data template of the item:
 ```
 Interestingly the designer complains that there is an “illegal qualified name character” in the XAML\, but when you run the code\, everything works as expected\. 
 
-![image](http://www.goatly.net/Media/Default/Windows-Live-Writer/ab3082f74259_A766/image_2d24f464-d558-4608-8bcc-4cf23df0dc24.png)
+![image](/Media/Default/Windows-Live-Writer/ab3082f74259_A766/image_2d24f464-d558-4608-8bcc-4cf23df0dc24.png)
 
 Now\, I’ve dug around a little and haven’t been able to work out why this is – debugging the host Visual Studio instance doesn’t reveal any exceptions being thrown\, so I can only assume the parser is misreporting a problem\, though in my experience it’s usually something I’m doing that’s wrong\. If anyone can reveal what that is\, I’d be very grateful\!
 
