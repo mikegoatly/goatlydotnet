@@ -31,7 +31,7 @@ is executed:
 Select **Analyze/Launch Performance Wizard…** from
 the menu:
 
-[![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_1.png)](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_4.png)
+![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_1.png)
 
 Because the code we are testing is already quite targeted\, I've
 chosen to select **Instrumentation**\. This will give
@@ -42,14 +42,14 @@ excluded by default\.\)
 After pressing **Next** you get to select the
 instrumentation targets:
 
-[![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb.png)](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_5.png)
+![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb.png)
 
 We're only really interested in targeting the main LIFTI
 assembly\, but by selecting the comparison executable for profiling
 life is made a little easier later on\, as the profiler has an
 executable to launch\.
 
-[![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_2.png)](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_7.png)
+![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_2.png)
 
 Before clicking **Finish** on the last page of the
 wizard\, we just need to uncheck the **"Launch
@@ -60,12 +60,12 @@ After clicking Finish\, your new performance session should
 appear in the **Performance Explorer** panel\, looking
 something like this:
 
-[![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_6.png)](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_15.png)
+![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_6.png)
 
 Right click on the **Lifti\.Comparison** target and
 select properties:
 
-[![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_7.png)](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_17.png)
+![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_7.png)
 
 We need to instruct the comparison executable to only perform
 the performance test code \- we do this by passing in the
@@ -82,7 +82,7 @@ Ok\, we're ready to get some baseline performance data\. Select
 \(You can just click on the button\, but it's good to know there are
 other options here\!\)
 
-[![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_11.png)](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_25.png)
+![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_11.png)
 
 ## BOOM\! What's does that warning mean?
 
@@ -118,7 +118,7 @@ results\.
 After the application exits\, you'll eventually see a report not
 dissimilar to this:
 
-[![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_20.png)](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_43.png)
+![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_20.png)
 
 From top to bottom\, this shows:
 
@@ -145,7 +145,7 @@ Clicking on any of the methods on the screen brings up the
 
 ## Function Detail reports
 
-[![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_21.png)](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_45.png)
+![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_21.png)
 
 The report above is for the
 **StringBuilderExtensions\.EndsWith** function\. Looking
@@ -236,7 +236,7 @@ used\. To do this we can click on the Related Views'
 
 ## The Functions report
 
-[![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_22.png)](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_47.png)
+![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_22.png)
 
 This report lists the functions called by your code\. You can
 sort it by whatever metric you're interested in\, and it can present
@@ -327,7 +327,7 @@ Let's have a look at what\, if any\, impact this makes\.
 
 Running the analysis again\, we get a new Summary report:
 
-[![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_23.png)](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_49.png)
+![image](/images/post/Windows-Live-Writer_Performance-tuning-using-Visual-Studio-2_87C9_image_thumb_23.png)
 
 Immediately we can see that the total elapsed time has gone down
 to 1707\.74ms \- that's over 1000ms \(40%\) faster \- not to be sniffed

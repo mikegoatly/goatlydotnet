@@ -15,7 +15,7 @@ Whilst it seems to be fairly well known that T4 can be used to generate output a
 
 First up\, create a new console application\, and add a very simple Customer class \(we need to have someone to generate an email for\, after all\!\):
 
-[![image](/images/post/Windows-Live-Writer_Using-T4_1313E_image_thumb.png)](/images/post/Windows-Live-Writer_Using-T4_1313E_image_2.png)
+![image](/images/post/Windows-Live-Writer_Using-T4_1313E_image_thumb.png)
 
 Customer is defined as:
 
@@ -28,11 +28,11 @@ public class Customer
 ```
 Now add a new **Preprocessed Text Template**\, calling it **CustomerEmailTemplate\.tt**\.
 
-[![image](/images/post/Windows-Live-Writer_Using-T4_1313E_image_thumb_4.png)](/images/post/Windows-Live-Writer_Using-T4_1313E_image_10.png)
+![image](/images/post/Windows-Live-Writer_Using-T4_1313E_image_thumb_4.png)
 
 You'll see a new editor looking something like this: \(Note that I'm using Tangible Engineering's excellent [T4 editor extension](http://t4-editor.tangible-engineering.com/T4-Editor-Visual-T4-Editing.html)\, which is why the code is highlighted nicely\)
 
-[![image](/images/post/Windows-Live-Writer_Using-T4_1313E_image_thumb_5.png)](/images/post/Windows-Live-Writer_Using-T4_1313E_image_12.png)
+![image](/images/post/Windows-Live-Writer_Using-T4_1313E_image_thumb_5.png)
 
 ### Writing the template
 
@@ -85,7 +85,7 @@ The Session object is just a dictionary of name\-value pairs\. Once the Session 
 
 If you run the code you should hopefully see this output:
 
-[![image](/images/post/Windows-Live-Writer_Using-T4_1313E_image_thumb_6.png)](/images/post/Windows-Live-Writer_Using-T4_1313E_image_14.png)
+![image](/images/post/Windows-Live-Writer_Using-T4_1313E_image_thumb_6.png)
 
 ### That's all folks
 

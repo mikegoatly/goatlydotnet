@@ -49,12 +49,12 @@ next step to come around\.
 To illustrate this\, lets look at what the sequence might look
 like for test case 3:
 
-[![image](/images/post/Windows-Live-Writer_Writing-multi-threaded-unit-tests_72FE_image_thumb_2.png)](/images/post/Windows-Live-Writer_Writing-multi-threaded-unit-tests_72FE_image_6.png)
+![image](/images/post/Windows-Live-Writer_Writing-multi-threaded-unit-tests_72FE_image_thumb_2.png)
 
 When this sequence is executed\, locks should be obtained and
 released in the following order:
 
-[![image](/images/post/Windows-Live-Writer_Writing-multi-threaded-unit-tests_72FE_image_thumb.png)](/images/post/Windows-Live-Writer_Writing-multi-threaded-unit-tests_72FE_image_2.png)
+![image](/images/post/Windows-Live-Writer_Writing-multi-threaded-unit-tests_72FE_image_thumb.png)
 
 Due to the fact that the write lock blocks due to an active read
 lock\, the resulting lock order is:
@@ -82,7 +82,7 @@ order to help with this\, I created a helper class called
 **ThreadTestContainer** to encapsulate this logic\, the
 public interface to this being:
 
-[![image](/images/post/Windows-Live-Writer_Writing-multi-threaded-unit-tests_72FE_image_thumb_1.png)](/images/post/Windows-Live-Writer_Writing-multi-threaded-unit-tests_72FE_image_4.png)
+![image](/images/post/Windows-Live-Writer_Writing-multi-threaded-unit-tests_72FE_image_thumb_1.png)
 
 The constructor code is:
 
@@ -149,7 +149,7 @@ of code until a specified number of threads have done so\.
 The process loop that the threads will go through is best
 described in a diagram:
 
-[![image](/images/post/Windows-Live-Writer_Writing-multi-threaded-unit-tests_72FE_image_thumb_4.png)](/images/post/Windows-Live-Writer_Writing-multi-threaded-unit-tests_72FE_image_10.png)
+![image](/images/post/Windows-Live-Writer_Writing-multi-threaded-unit-tests_72FE_image_thumb_4.png)
 
 At the moment we're making the assumption that
 **all** threads are **always** going to
@@ -167,7 +167,7 @@ know what is expected to happen at each step\.
 
 We can use a small struct to describe a step in a sequence:
 
-[![image](/images/post/Windows-Live-Writer_Writing-multi-threaded-unit-tests_72FE_image_thumb_6.png)](/images/post/Windows-Live-Writer_Writing-multi-threaded-unit-tests_72FE_image_14.png)
+![image](/images/post/Windows-Live-Writer_Writing-multi-threaded-unit-tests_72FE_image_thumb_6.png)
 
 - The first properties are simple\, the action to take and the id
 of the actor to take it\.
