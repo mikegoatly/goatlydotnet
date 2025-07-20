@@ -20,22 +20,22 @@ Essentials\, or you explicitly chose not to install it as part of
 the latest version\.*
 
 First\, open Windows Live Mesh\. If it's already running\, then
-you'll see it's icon in the system tray \( [![image](/images/post/Windows-Live-Writer_Using-Windows-Live-Mesh-to-synchronize-y_AAA1_image_thumb_3.png)](/images/post/Windows-Live-Writer_Using-Windows-Live-Mesh-to-synchronize-y_AAA1_image_8.png)\)\, otherwise
+you'll see it's icon in the system tray \( [image](/images/post/Windows-Live-Writer_Using-Windows-Live-Mesh-to-synchronize-y_AAA1_image_thumb_3.png)\)\, otherwise
 launch it from the Start orb/button\. Click **Sync a
 folder**:
 
-[![image](/images/post/Windows-Live-Writer_Using-Windows-Live-Mesh-to-synchronize-y_AAA1_image_thumb.png)](/images/post/Windows-Live-Writer_Using-Windows-Live-Mesh-to-synchronize-y_AAA1_image_2.png)
+[image](/images/post/Windows-Live-Writer_Using-Windows-Live-Mesh-to-synchronize-y_AAA1_image_thumb.png)
 
 Browse to *Documents\\My Weblog Posts* and press
 **Sync**\. Selecting the My Weblog Posts will
 synchronize both drafts and recent post entries\.
 
-[![image](/images/post/Windows-Live-Writer_Using-Windows-Live-Mesh-to-synchronize-y_AAA1_image_thumb_1.png)](/images/post/Windows-Live-Writer_Using-Windows-Live-Mesh-to-synchronize-y_AAA1_image_4.png)
+[image](/images/post/Windows-Live-Writer_Using-Windows-Live-Mesh-to-synchronize-y_AAA1_image_thumb_1.png)
 
 All you have to do then is select the machines that you want to
 synchronize to:
 
-[![image](/images/post/Windows-Live-Writer_Using-Windows-Live-Mesh-to-synchronize-y_AAA1_image_thumb_2.png)](/images/post/Windows-Live-Writer_Using-Windows-Live-Mesh-to-synchronize-y_AAA1_image_6.png)
+[image](/images/post/Windows-Live-Writer_Using-Windows-Live-Mesh-to-synchronize-y_AAA1_image_thumb_2.png)
 
 If you want\, you can even synchronize it to your SkyDrive\, but
 I'm not bothering because having my draft posts backed up across 3

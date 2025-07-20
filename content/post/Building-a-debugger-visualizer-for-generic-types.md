@@ -101,12 +101,12 @@ Now when you debug into the code and get hover over a variable
 containing an instance of ItemScore\, you'll see the little
 magnifying glass next to the variable data:
 
-[![image](/images/post/Windows-Live-Writer_76320b98df53_9AAB_image_thumb_2.png)](/images/post/Windows-Live-Writer_76320b98df53_9AAB_image_6.png)
+[image](/images/post/Windows-Live-Writer_76320b98df53_9AAB_image_thumb_2.png)
 
 Clicking on the magnifying glass will call into the Show method\,
 ultimately resulting in our visualizer window being displayed:
 
-[![image](/images/post/Windows-Live-Writer_76320b98df53_9AAB_image_thumb_3.png)](/images/post/Windows-Live-Writer_76320b98df53_9AAB_image_8.png)
+[image](/images/post/Windows-Live-Writer_76320b98df53_9AAB_image_thumb_3.png)
 
 As always\, let me know in the comments if you find this
 useful\!

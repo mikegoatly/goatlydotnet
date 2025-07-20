@@ -10,7 +10,7 @@ pictures\!
 
 ## Birds\-eye view
 
-[![image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb.png)](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_2.png)
+[image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb.png)
 
 The file is broken up into two areas\, headers and page data\.
 Each data page is is 8Kb in length and contains 1 or more entries\.
@@ -32,7 +32,7 @@ is allocated its own unique ID\.
 
 ## File headers
 
-[![image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb_1.png)](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_4.png)
+[image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb_1.png)
 
 The index header starts with a known array of 6 bytes followed
 by the version number of the persisted index file format\. This
@@ -53,7 +53,7 @@ of data pages\.
 Both data page types start with a header\, structured in the
 following way:
 
-[![image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb_4.png)](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_10.png)
+[image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb_4.png)
 
 After a byte indicating the type of page follows the next and
 previous page numbers\. From this you might correctly infer that
@@ -66,11 +66,11 @@ significantly differ from their physical order\.
 By way of a trivial example\, the pages may be
 *physically* ordered like this:
 
-[![image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb_5.png)](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_12.png)
+[image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb_5.png)
 
 But are *logically* ordered like this:
 
-[![image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb_6.png)](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_14.png)
+[image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb_6.png)
 
 The data page header also contains the internal IDs of the first
 and last entries in the page\. Entries are stored in ascending order
@@ -87,7 +87,7 @@ state and not necessarily zeroed out\.
 
 ## Item index pages
 
-[![image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb_2.png)](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_6.png)
+[image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb_2.png)
 
 The item entries contained within an item index page are just
 the internal ID of the item followed by the item data itself\.
@@ -105,7 +105,7 @@ If you consider the in\-memory structure of the full text index
 about this\) you might imagine something like this for an index of
 URLs against their content:
 
-[![image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb_10.png)](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_22.png)
+[image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb_10.png)
 
 Each node in the tree has one or more *references*\,
 either to another node or\, in the case of the end nodes\, to an
@@ -115,7 +115,7 @@ Index node pages contain entries that reflect these references:
 *referenced item* entries and *referenced index node*
 entries:
 
-[![image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb_3.png)](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_8.png)
+[image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb_3.png)
 
 ### Referenced item entries
 
@@ -137,7 +137,7 @@ Both these entries are best explained by example\, so consider
 the index below \- the internal node and item ids are the numbers in
 red:
 
-[![image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb_11.png)](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_24.png)
+[image](/images/post/Windows-Live-Writer_Structure-of-the-LIFTI-page-data_C4E8_image_thumb_11.png)
 
 The **referenced index node** entries that you
 would see in the file are:

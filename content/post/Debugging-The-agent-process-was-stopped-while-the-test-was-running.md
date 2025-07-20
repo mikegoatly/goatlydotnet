@@ -31,7 +31,7 @@ to diagnose\.
 The error results are usually presented in the Test Results
 window like this:
 
-[![image](/images/post/Windows-Live-Writer_Debugging_12BE4_image_thumb_1.png)](/images/post/Windows-Live-Writer_Debugging_12BE4_image_4.png)
+[image](/images/post/Windows-Live-Writer_Debugging_12BE4_image_thumb_1.png)
 
 *Side note: you can see that I've grouped the tests by their
 result \- this is my preferred approach to viewing my unit tests in
@@ -43,7 +43,7 @@ error details for each of the tests that ended up with the Error
 result\, and may well provide you with enough information to solve
 your problem:
 
-[![image](/images/post/Windows-Live-Writer_Debugging_12BE4_image_thumb_2.png)](/images/post/Windows-Live-Writer_Debugging_12BE4_image_6.png)
+[image](/images/post/Windows-Live-Writer_Debugging_12BE4_image_thumb_2.png)
 
 Here you can see that an error on the background thread caused
 the test to fail\. If you're lucky\, this window should given you
@@ -87,7 +87,7 @@ private void DoSomething()
 ```
 When executed in order\, you'll see this in the test results:
 
-[![image](/images/post/Windows-Live-Writer_Debugging_12BE4_image_thumb_3.png)](/images/post/Windows-Live-Writer_Debugging_12BE4_image_8.png)
+[image](/images/post/Windows-Live-Writer_Debugging_12BE4_image_thumb_3.png)
 
 Uh\, oh\. The test that did nothing wrong was blamed for the
 failure of the bad one\. Looking at the Test run error report will
@@ -116,7 +116,7 @@ You can't always infer the test at the root of the problem from
 this call stack\. Indeed\, there are times when you don't get
 *any* stack trace information \- like this:
 
-[![image](/images/post/Windows-Live-Writer_Debugging_12BE4_image_thumb_4.png)](/images/post/Windows-Live-Writer_Debugging_12BE4_image_10.png)
+[image](/images/post/Windows-Live-Writer_Debugging_12BE4_image_thumb_4.png)
 
 When this happens\, I've found that it's usually because the
 exception that is being thrown from the other thread is a
@@ -146,7 +146,7 @@ you can always debug the tests\. Before you start debugging\, make
 sure that you're catching all exceptions from the Debug/Exceptions
 menu \(or Ctrl\-Alt\-E\):
 
-[![image](/images/post/Windows-Live-Writer_Debugging_12BE4_image_thumb_7.png)](/images/post/Windows-Live-Writer_Debugging_12BE4_image_16.png)
+[image](/images/post/Windows-Live-Writer_Debugging_12BE4_image_thumb_7.png)
 
 Hopefully these tips will help you identify the cause of your
 unit test errors \- good luck\!

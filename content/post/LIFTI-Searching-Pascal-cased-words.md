@@ -13,7 +13,7 @@ Go to symbol](http://stackoverflow.com/questions/1371241/can-resharper-navigate-
 > http://lifti\.codeplex\.com/SourceControl/list/changesets*](http://lifti.codeplex.com/SourceControl/list/changesets)*\- you'll find the sample project in the Samples solution
 > folder:*
 > 
-> [![image_thumb9_thumb](/images/post/Windows-Live-Writer_1d2ddffacd3c_75BC_image_thumb9_thumb_thumb.png)](/images/post/Windows-Live-Writer_1d2ddffacd3c_75BC_image_thumb9_thumb_2.png)
+> [image_thumb9_thumb](/images/post/Windows-Live-Writer_1d2ddffacd3c_75BC_image_thumb9_thumb_thumb.png)
 > 
 > 
 
@@ -58,11 +58,11 @@ this.index.WordSplitter = new PascalCaseWordSplitter();
 Using the UI you're able to search on just the capital letters
 of a method name:
 
-[![image_thumb7_thumb](/images/post/Windows-Live-Writer_1d2ddffacd3c_75BC_image_thumb7_thumb_thumb.png)](/images/post/Windows-Live-Writer_1d2ddffacd3c_75BC_image_thumb7_thumb_2.png)
+[image_thumb7_thumb](/images/post/Windows-Live-Writer_1d2ddffacd3c_75BC_image_thumb7_thumb_thumb.png)
 
 And also a combination of capital letters and partial words:
 
-[![image_thumb6_thumb](/images/post/Windows-Live-Writer_1d2ddffacd3c_75BC_image_thumb6_thumb_thumb.png)](/images/post/Windows-Live-Writer_1d2ddffacd3c_75BC_image_thumb6_thumb_2.png)
+[image_thumb6_thumb](/images/post/Windows-Live-Writer_1d2ddffacd3c_75BC_image_thumb6_thumb_thumb.png)
 
 That's all for now \- any questions?
 
