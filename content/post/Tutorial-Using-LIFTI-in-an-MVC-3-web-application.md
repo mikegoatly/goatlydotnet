@@ -30,9 +30,9 @@ appropriate frameworks\.
 To get started\, create a new empty MVC 3 application so you have
 a basic structure for the web application to be built from\.
 
-[image](/images/post/Windows-Live-Writer_Using-LIFTI-in-an-MVC-3-web-application_9CFE_image_thumb_1.png)
+[![image](/images/post/Windows-Live-Writer_Using-LIFTI-in-an-MVC-3-web-application_9CFE_image_thumb_1.png)](/images/post/Windows-Live-Writer_Using-LIFTI-in-an-MVC-3-web-application_9CFE_image_4.png)
 
-[image](/images/post/Windows-Live-Writer_Using-LIFTI-in-an-MVC-3-web-application_9CFE_image_thumb_2.png)
+[![image](/images/post/Windows-Live-Writer_Using-LIFTI-in-an-MVC-3-web-application_9CFE_image_thumb_2.png)](/images/post/Windows-Live-Writer_Using-LIFTI-in-an-MVC-3-web-application_9CFE_image_6.png)
 
 Now use [nuget](http://nuget.org/) to
 add LIFTI \- open the **Package Manager Console**
@@ -130,7 +130,7 @@ to fire up the project and navigate to
 *http://localhost:xxxx/Employees* where xxxx is the port
 number for your project:
 
-[image](/images/post/Windows-Live-Writer_Using-LIFTI-in-an-MVC-3-web-application_9CFE_image_thumb_4.png)
+[![image](/images/post/Windows-Live-Writer_Using-LIFTI-in-an-MVC-3-web-application_9CFE_image_thumb_4.png)](/images/post/Windows-Live-Writer_Using-LIFTI-in-an-MVC-3-web-application_9CFE_image_10.png)
 
 Ok\, so it doesn't look very sexy\, but it's a website with a SQL
 Server Compact database sitting behind it\, all up and running in

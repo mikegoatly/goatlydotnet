@@ -55,7 +55,7 @@ LIFTI to support this over the coming weeks\. To whet your appetite\,
 here's a very high level diagram\, starting from the
 PersistedFullTextIndex class: \(click for a bigger version\)
 
-[image](/images/post/Windows-Live-Writer_Implementing-a-persisted-file-store-for-_FA97_image_thumb.png)
+[![image](/images/post/Windows-Live-Writer_Implementing-a-persisted-file-store-for-_FA97_image_thumb.png)](/images/post/Windows-Live-Writer_Implementing-a-persisted-file-store-for-_FA97_image_2.png)
 
 The transaction work is probably next on my plate for LIFTI\.
 This is another interesting chunk of work\, but it should be

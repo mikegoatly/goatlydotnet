@@ -13,7 +13,7 @@ contained within elements in a piece of XML text\. This means that
 element names\, attributes and their associated values will not be
 indexed\. For example\, consider the following XML:
 
-[image](/images/post/Windows-Live-Writer_LIFTI-XmlWordSplitter_CEA3_image_thumb.png)
+[![image](/images/post/Windows-Live-Writer_LIFTI-XmlWordSplitter_CEA3_image_thumb.png)](/images/post/Windows-Live-Writer_LIFTI-XmlWordSplitter_CEA3_image_2.png)
 
 The xml splitter will return the following words:
 

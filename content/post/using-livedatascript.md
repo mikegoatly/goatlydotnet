@@ -21,7 +21,7 @@ Once you’re connected you’ll be able to drill into the databases available o
 
 Double clicking on a table will open it up in a new window:
 
-[image](/Media/Default/Windows-Live-Writer/Using-LiveDataScript_D665/image_thumb.png)
+[![image](/Media/Default/Windows-Live-Writer/Using-LiveDataScript_D665/image_thumb.png)](/Media/Default/Windows-Live-Writer/Using-LiveDataScript_D665/image_7.png)
 
 ## Scripting data from a table
 

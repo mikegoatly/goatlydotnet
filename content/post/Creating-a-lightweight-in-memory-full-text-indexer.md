@@ -47,7 +47,7 @@ another in order to match\, etc\.
 
 The main API is pretty simple:
 
-[ED869F22AB5C24A8_473_0](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_0_thumb.png)
+[![ED869F22AB5C24A8_473_0](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_0_thumb.png)](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_0_2.png)
 
 There is an overloaded method to index an item or items
 \(**Index**\) and another to search for the indexed
@@ -105,14 +105,14 @@ it becomes apparent that there is a significant amount of redundant
 information at the start of the words \(the duplicated sections are
 highlighted in red\):
 
-[ED869F22AB5C24A8_473_1](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_1_thumb.png)
+[![ED869F22AB5C24A8_473_1](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_1_thumb.png)](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_1_2.png)
 
 Surely comparing the same substrings multiple times is a waste
 of time \- whether it matches with a search word will not change on
 a word\-by\-word basis\. A better way of storing this data is as a set
 of trees:
 
-[ED869F22AB5C24A8_473_2](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_2_thumb.png)
+[![ED869F22AB5C24A8_473_2](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_2_thumb.png)](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_2_2.png)
 
 Now with the data in this type of structure\, things look a
 little better when considering the two previous examples:
@@ -131,7 +131,7 @@ are 2 words\.
 We can implement a tree as described previously very easily
 using a self\-referencing class\, defined as:
 
-[ED869F22AB5C24A8_473_3](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_3_thumb.png)
+[![ED869F22AB5C24A8_473_3](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_3_thumb.png)](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_3_2.png)
 
 A **WordIndexNode** represents a single node in the
 tree\, and each instance can have zero or more children\,
@@ -311,7 +311,7 @@ returned for all the search words\.
 For example\, if "Tea cake" was searched for\, we might get the
 following results for the different words:
 
-[ED869F22AB5C24A8_473_4](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_4_thumb.png)
+[![ED869F22AB5C24A8_473_4](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_4_thumb.png)](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_4_2.png)
 
 The set that is ultimately relevant is the intersection of the
 two sets\, i\.e\. the results that appear in both:
@@ -322,7 +322,7 @@ Fortunately there a nice extension method that does most of the
 work for us here:
 **IEnumerable<T>\.Intersect**\.
 
-[ED869F22AB5C24A8_473_5](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_5_thumb_1.png)
+[![ED869F22AB5C24A8_473_5](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_5_thumb_1.png)](/images/post/Windows-Live-Writer_f398ddf47af6_A2A0_ED869F22AB5C24A8_473_5_4.png)
 
 The implementation of the Search method\, detailed below\, uses
 the word splitter to separate out the words in the search text\, get
