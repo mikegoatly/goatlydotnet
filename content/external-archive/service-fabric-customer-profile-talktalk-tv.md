@@ -58,7 +58,7 @@ The TalkTalk TV team decided to break the encoding and resource resolution appli
 
 The diagram below illustrates the usage of a Service Fabric cluster to provide independently deployable and scalable microservices that coordinate with a number of Azure services. This shows how TalkTalk TV were able to gain benefits by re-writing only a portion of the IaaS application i.e. they were able to integrate in a service-oriented manner the new microservices with the existing admin website and TalkTalk back office system.
 
-![TalkTalk content encoding and resource resolution application interaction with Azure services](EncodingResourceResolution2-1024x518.png)
+![TalkTalk content encoding and resource resolution application interaction with Azure services](/images/external-archive/service-fabric-customer-profile-talktalk-tv/EncodingResourceResolution2-1024x518.png)
 *The TalkTalk content encoding and resource resolution application using Azure services*
 
 The following Azure services are used in the solution:
@@ -73,14 +73,14 @@ The following Azure services are used in the solution:
 
 To enable the content encoding and resource resolution workflow there are six different applications. The diagram below illustrates the roles and interactions between each of the separate Service Fabric applications.
 
-![Relationship between TalkTalk TV applications](ApplicationRelationships-1024x661.png)
+![Relationship between TalkTalk TV applications](/images/external-archive/service-fabric-customer-profile-talktalk-tv/ApplicationRelationships-1024x661.png)
 *Relationship between the Service Fabric applications in the encoding and resource resolution application*
 
 ### **Diving deeper into the activities application**
 
 Let’s now dive deep into the Activities application to see how this is composed of a variety of microservices each performing a specific role. The diagram below provides a detailed view of the Service Fabric microservices and the communication between them that make up the Activities application.
 
-![Activities application architecture](AcitiviesApplication-1024x577.png)
+![Activities application architecture](/images/external-archive/service-fabric-customer-profile-talktalk-tv/AcitiviesApplication-1024x577.png)
 *The Activities Application and its microservices used for content encoding*
 
 The Activities application contains a number of microservices each of which performs a discrete role that encapsulate the logic required to create new content via Media Services and Batch, notify the back office systems and expose APIs.  The functionality of each service is described below:
