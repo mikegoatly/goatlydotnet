@@ -1,26 +1,49 @@
 {{- define "main" }}
+{{- $s := .Site.Params }}
+{{- $p := .Params }}
 {{- $scratch := newScratch }}
-{{- if isset .Params "image" }}
-{{- $scratch.Set "image" .Params.image }}
+{{- if isset $p "image" }}
+  {{- $scratch.Set "image" $p.image }}
 {{- else }}
-{{ $scratch.Set "image" .Site.Params.fallBackOgImage }}
+  {{ $scratch.Set "image" $s.fallBackOgImage }}
 {{- end }}
 {{- $image := $scratch.Get "image" }}
-{{- $bg := (path.Join "images" $image | absLangURL) }}
-<div class='grid-inverse wrap content'>
-  <article class='post_content'>
-    <h1 class='post_title'>{{ .Title }}</h1>
+{{- $bg := absLangURL (path.Join "images" $image) }}
+<div class="{{ if ne $p.singleColumn true }}grid-inverse {{ end }}wrap content">
+  <article class="post_content">
+    {{- $t := .Title }}
+    <h1 class="post_title">{{ $t | markdownify }}</h1>
     {{- partial "post-meta" . }}
     {{ partial "share" . }}
-    {{ with .Params.featureImage }}
-    <img src='{{ . }}' class="image_featured">
-    {{ end }}
+    {{- with .Params.featureImage -}}
+      <div class="post_featured">
+        <img src='{{ . }}' class="image_featured" alt="{{ $p.featureImageAlt | default .Title }}">
+        {{- with $p.featureImageCap }}
+          <figcaption>{{ . }}</figcaption>
+        {{- end }}
+      </div>
+    {{- end -}}
     <section class='toc' aria-label="Table Of Contents">
-      {{ if .Params.toc }}
-      {{ .TableOfContents }}
+      {{ if $p.toc }}
+      <div class="post_toc">
+        <h2>Overview</h2>
+        {{ .TableOfContents }}
+      </div>
       {{ end }}
     </section>
-    {{- .Content }}
+    <div class="post_body">
+      {{- .Content }}
+    </div>
+
+    {{- $showRelatedInArticle := $s.showRelatedInArticle }}
+    {{- if eq $p.showRelatedInArticle true }}
+      {{- $showRelatedInArticle = true }}
+    {{- else if eq $p.showRelatedInArticle false }}
+      {{- $showRelatedInArticle = false }}
+    {{- end }}
+    {{- if (and ($showRelatedInArticle) (isset $p "series")) }}
+      {{- partial "related" . }}
+    {{- end }}
 
     <section class="giscus">
       <script src="https://giscus.app/client.js" data-repo="mikegoatly/goatlydotnet"
@@ -30,6 +53,8 @@
         </script>
     </section>
   </article>
-  {{- partial "sidebar" . }}
+  {{- if ( ne $p.sidebar false ) }}
+    {{- partial "sidebar" . }}
+  {{ end }}
 </div>
 {{- end }}

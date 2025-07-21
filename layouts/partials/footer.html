@@ -1,7 +1,14 @@
-<footer class = 'footer'>
-  <div class = 'footer_inner wrap pale'>
-    <img src = '{{ absURL "icons/apple-touch-icon.png" }}' class = 'icon icon_2 transparent'>
-    <p>Copyright &copy;&nbsp;<span class = 'year'></span>&nbsp;Mike Goatly. All Rights Reserved</p>
-    {{- partial "top" .}}
+{{- $s := .Site.Params }}
+{{- $c := default .Site.Title .Site.Copyright  }}
+{{- if or .Params.enableMathNotation $s.enableMathNotation }}
+  {{ partialCached "math" . }}
+{{- end }}
+{{- $iconsDir := default "icons/" .Site.Params.iconsDir }}
+{{- $defaultFooterLogo := printf "%s%s" $iconsDir "apple-touch-icon.png"}}
+<footer class="footer">
+  <div class="footer_inner wrap pale">
+    <img src='{{ absURL (default $defaultFooterLogo $s.footerLogo) }}' class="icon icon_2 transparent" alt="{{ $c }}">
+    <p>Copyright &copy;{{ with $s.since }}&nbsp;{{ . }}-{{ end }}&nbsp;<span class="year"></span>&nbsp;Mike Goatly. All Rights Reserved</p>
+    {{- partialCached "top" .}}
   </div>
 </footer>

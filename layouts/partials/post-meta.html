@@ -1,9 +1,9 @@
-<div class = 'post_meta'>
+<div class='post_meta'>
   {{ if ne .Params.noDate true }}
   <svg class="icon">
     <use xlink:href="#calendar"></use>
   </svg>
-  <span class="post_date"></span>
+  <span class="post_date">
     {{ .Date.Format "Jan 2, 2006" -}}
   </span>
   {{ end }}

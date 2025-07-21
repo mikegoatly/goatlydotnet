@@ -1,15 +1,23 @@
+{{- $base := absURL "" }}
 {{- $items := .Site.Data.social }}
+{{- $social := .Site.Menus.social }}
+{{- with $social }}
+  {{- $items = . }}
+{{- end }}
 <div class='follow'>
   {{- range $items }}
-  {{- $url := .url }}
-  {{- if .internal }}
-  {{ $url = absURL .url }}
+  {{- $url := .URL }}
+  {{- $label := lower .Name }}
+  {{- if eq $social nil }}
+    {{ $url = .url }}
+    {{ $label = lower .item }}
   {{- end }}
-  <a href='{{ $url }}'  {{ if not .internal }}rel="me"{{ end }}>
-    <svg class="icon">
-      <use xlink:href="#{{ .item }}"></use>
-    </svg>
+  {{- if and (eq (hasPrefix $url $base) false) (eq (hasPrefix $url "http") false) }}
+    {{ $url = absLangURL $url }}
+  {{- end }}
+  <a href="{{ $url }}">
+    {{ partial "sprite" (dict "icon" $label) }}
   </a>
   {{- end }}
-  {{- partial "mode" . }}
+  {{- partialCached "mode" . }}
 </div>
