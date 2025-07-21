@@ -69,7 +69,7 @@ In the Samples folder of the LIFTI solution\, you'll now find a
 new sample called **StackOverflowSample** \- when you
 run it\, you'll see something like this:
 
-[![image_thumb[6]](/images/post/Windows-Live-Writer_85b645c929c4_EC66_image_thumb%5B6%5D_thumb.png)](/images/post/Windows-Live-Writer_85b645c929c4_EC66_image_thumb%5B6%5D_2.png)
+![image_thumb[6]](/images/post/2010/12/Windows-Live-Writer_85b645c929c4_EC66_image_thumb%5B6%5D_thumb.png)
 
 You can type in the query at the top\, and once you press search\,
 3 things will happen:

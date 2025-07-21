@@ -6,7 +6,7 @@ featured: true # Sets if post is a featured post, making appear on the home page
 draft: false # Sets whether to render this page. Draft of true will not be rendered.
 toc: true # Controls if a table of contents should be generated for first-level links automatically.
 # menu: main
-thumbnail: "/images/post/static-web-apps-icon.png" # Sets thumbnail image appearing inside card on homepage.
+thumbnail: "/images/post/2020/08/static-web-apps-icon.png" # Sets thumbnail image appearing inside card on homepage.
 categories:
   - Blog
 tags:
@@ -36,7 +36,7 @@ they are overkill. Not having to maintain server side logic and a database is al
 
 ## Static Site Generation
 
-![Hugo logo:right:inline](/images/post/hugo.png)
+![Hugo logo:right:inline](/images/post/2020/08/hugo.png)
 I decided to use [Hugo](https://gohugo.io/), having had some success with it recently while building
 the new [LIFTI v2 documentation](https://mikegoatly.github.io/lifti/). I used the [Clarity theme](https://themes.gohugo.io/hugo-clarity/)
 with some minor customizations, such as swapping out Google Tag Manager for Application Insights to track page views.
@@ -112,7 +112,7 @@ $Html2mdArgs = $Html2mdArgs + $Urls
 
 ## Hosting
 
-![Azure static web apps logo:right:inline](/images/post/static-web-apps-icon.png)
+![Azure static web apps logo:right:inline](/images/post/2020/08/static-web-apps-icon.png)
 I initially tried hosting the content in an Azure Storage Static Website, but without
 fronting that with a CDN and paying for a load of redirect rules, mapping the old URLs
 to the new ones wasn't going to work out.
@@ -139,7 +139,7 @@ builds the site and publishes it to Azure. 🧙🏾‍♂️🎉
 
 ## Top level domain handling
 
-![Cloudflare logo:right:inline](/images/post/cloudflare-logo.png)
+![Cloudflare logo:right:inline](/images/post/2020/08/cloudflare-logo.png)
 One of the things that Static Web Apps can't currently handle is top level domains (aka naked domains). Previously
 my blog was primarily hosted at `https://goatly.net` so I needed a way to redirect traffic from there to the `www`
 subdomain. Fortunately there's a [workaround documented](https://burkeholland.github.io/posts/static-app-root-domain/)
