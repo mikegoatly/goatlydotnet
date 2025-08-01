@@ -26,7 +26,7 @@ pagerSize = 10
 [params]
 author = "Mike Goatly"
 twitter = "@mikegoatly"
-introDescription = "Like a code monkey, but more goat-like. A code goat, if you like."
+introDescription = "Experienced full-stack software developer, architect and team lead."
 customCSS = ["css/custom.css"]
 
 # app insights id
