@@ -33,6 +33,11 @@ html:not([data-mode="lit"]) .toc a {
     color: white;
 }
 
+code.noClass {
+    word-break: normal;
+    line-break: normal;
+}
+
 @media (prefers-color-scheme: dark) {
     .toc {
         background-color: #0D3042;
@@ -43,7 +48,7 @@ html:not([data-mode="lit"]) .toc a {
     }
 
     code.noClass {
-        color: rgb(194, 169, 50)
+        color: rgb(194, 169, 50);
     }
     
     .post_content a {
