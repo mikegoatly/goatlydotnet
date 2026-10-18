@@ -24,7 +24,6 @@ pagerSize = 10
     tabWidth = 2
 
 [params]
-author = "Mike Goatly"
 twitter = "@mikegoatly"
 introDescription = "Experienced full-stack software developer, architect and team lead."
 customCSS = ["css/custom.css"]
@@ -60,3 +59,7 @@ figurePositionLabel = "Figure" # the text before image number e.g Figure 1.0
 
 # Set the collapsed mobile navigation to either appear from the left or the right
 mobileNavigation = "left" # if you prefer right change to 'right'
+
+[params.author]
+name = "Mike Goatly"
+# email = "" # if set, used for managingEditor/webMaster/author in the RSS feed
